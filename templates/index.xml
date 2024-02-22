@@ -2,8 +2,6 @@
 <odoo>
     <template id="7md_website.home" name="7md">
         <t t-call="website.layout">
-            <h1>Home template</h1>
-
             <!-- Video Banner -->
             <section class="container-fluid p-0 m-0 home-slider">
                 <div class="row p-0 m-0">
@@ -96,6 +94,7 @@
                 </section>
             </section>
 
+            <!-- Tabs Section -->
             <section
                 class="container-fluid px-lg-4 main_container pt-4 filter-product-layout">
                 <div class="row pb-4">
@@ -111,7 +110,8 @@
                                                 <img
                                                     src="/7md_website/static/src/images/imac icon.svg" />
                                             </span>
-                                            <span class="nav_selected_button_text">Home Appliances</span>
+                                            <span class="nav_selected_button_text">Electric &#38;
+                                                Electronics</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -120,7 +120,7 @@
                                                 <img
                                                     src="/7md_website/static/src/images/Path 46660.svg" />
                                             </span>
-                                            <span class="nav_button_text">Electronics</span>
+                                            <span class="nav_button_text">Health &#38; Personal Care </span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -129,7 +129,8 @@
                                                 <img
                                                     src="/7md_website/static/src/images/noun-home-appliances-4976489.svg" />
                                             </span>
-                                            <span class="nav_button_text">Fashion</span>
+                                            <span class="nav_button_text">Home Improvement &#38;
+                                                Tools</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -138,17 +139,18 @@
                                                 <img
                                                     src="/7md_website/static/src/images/Path 46658.svg" />
                                             </span>
-                                            <span class="nav_button_text">Health personal
-                                                care</span>
+                                            <span class="nav_button_text">Men's &#38; Women's
+                                                Fashion</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
                                         <a href="javascript:void(0);">
                                             <span class="img">
                                                 <img
-                                                    src="/7md_website/static/src/images/phone-icon.svg" />
+                                                    src="/7md_website/static/src/images/phone icon.svg" />
                                             </span>
-                                            <span class="nav_button_text">Projector</span>
+                                            <span class="nav_button_text">Mobiles, Tablets &#38;
+                                                Accessories</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -157,7 +159,8 @@
                                                 <img
                                                     src="/7md_website/static/src/images/Path 46669.svg" />
                                             </span>
-                                            <span class="nav_button_text">Kids</span>
+                                            <span class="nav_button_text">Outdoors, Fitness &#38;
+                                                Sports</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -166,7 +169,8 @@
                                                 <img
                                                     src="/7md_website/static/src/images/Group 15825.svg" />
                                             </span>
-                                            <span class="nav_button_text">Cell Phones</span>
+                                            <span class="nav_button_text">Smart Devices &#38;
+                                                Accessories</span>
                                         </a>
                                     </li>
                                     <li class="list-group-item border-none">
@@ -175,16 +179,7 @@
                                                 <img
                                                     src="/7md_website/static/src/images/noun-games-3323124.svg" />
                                             </span>
-                                            <span class="nav_button_text">Sports</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-group-item border-none">
-                                        <a href="javascript:void(0);">
-                                            <span class="img">
-                                                <i
-                                                    class="fa-regular fa-game-console-handheld fa-xl"></i>
-                                            </span>
-                                            <span class="nav_button_text">Game consoles</span>
+                                            <span class="nav_button_text">Smart Watch &#38; Band</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -192,7 +187,8 @@
                                 <div class="p-2 d-none d-lg-flex">
                                     <div class="card rounded-3">
                                         <picture class="w-100 card-img">
-                                            <source srcset="assets/images/all-products.png"
+                                            <source
+                                                srcset="/7md_website/static/src/images/all-products.png"
                                                 media="(min-width: 768px)" />
                                             <img
                                                 src="/7md_website/static/src/images/all-products.png"
