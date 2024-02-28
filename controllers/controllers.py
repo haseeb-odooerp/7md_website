@@ -9,3 +9,7 @@ class MdWebsite(http.Controller):
     @http.route('/', auth='public', type='http', website=True)
     def index(self, **kw):
         return request.render('7md_website.home')
+    
+
+
+

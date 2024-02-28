@@ -99,12 +99,24 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div
-                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
-                                                <a
-                                                    class="btn btn-sm bg-transparent text-white text-decoration-none"
-                                                    href="javascript:void(0);">العربية</a>
+                                            <div class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <t t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]"/>
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                                        <a class="dropdown-item" t-att-href="'/website/lang/ar'">العربية</a>
+                                                        <a class="dropdown-item" t-att-href="'/website/lang/en'">English</a>
+                                                        <!-- Add more languages as needed -->
+                                                    </div>
+                                                </div>
+                                                <t t-call="website.placeholder_header_language_selector">
+                                                    <t t-set="_div_classes" t-valuef="my-auto ms-lg-2"/>
+                                                </t>
                                             </div>
+                                            
+
+
                                         </div>
                                     </div>
                                     <div class="col-3">
@@ -142,7 +154,8 @@
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item text-danger"
-                                                        t-attf-href="/web/session/logout?redirect=/web/login">Logout</a>
+                                                            t-attf-href="/web/session/logout?redirect=/web/login">
+                                                            Logout</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -174,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-
+                  
                     <div class="container-fluid d-flex flex-row-reverse flex-lg-row bg-primary py-2">
                         <div class="div header-menu d-none d-lg-flex" id="header-menu">
                             <div class="navbar-expand navbar-collapse">
@@ -565,4 +578,6 @@
             </header>
         </xpath>
     </template>
+
+
 </odoo>
