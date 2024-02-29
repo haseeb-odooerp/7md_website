@@ -25,6 +25,7 @@
         # 'security/ir.model.access.csv',
         'templates/header.xml',
         'templates/index.xml',
+        'templates/footer.xml',
         # 'views/views.xml',
         # 'views/templates.xml',
     ],
@@ -34,8 +35,11 @@
     ],
     'assets': {
         'web.assets_frontend':[
+            "7md_website/static/src/js/landing.js",
             "7md_website/static/src/css/account.css",
             "7md_website/static/src/css/all.css",
+            "7md_website/static/src/css/slick-theme.css",
+            "7md_website/static/src/css/slick.css",
             "7md_website/static/src/css/bootstrap-grid.css",
             "7md_website/static/src/css/bootstrap-grid.rtl.css",
             "7md_website/static/src/css/bootstrap-reboot.css",
@@ -52,8 +56,9 @@
             "7md_website/static/src/css/product-details.css",
             "7md_website/static/src/css/shopping-cart.css",
             "7md_website/static/src/css/updated-styles.scss",
-            # "7md_website/static/src/js/bootstrap.bundle.min.js",
-            # "7md_website/static/src/js/bootstrap.bundle.min.js.map",
+            "7md_website/static/src/js/bootstrap.bundle.min.js",
+            "7md_website/static/src/js/bootstrap.bundle.min.js.map",
+            
         ],
     },
 }

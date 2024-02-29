@@ -574,13 +574,20 @@ input[type=number]:focus,
 
 .product-card-image .product-image>img {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    /* left: 50%;
+    top: 50%; */
     height: 100%;
-    width: auto;
-    -webkit-transform: translate(-50%, -50%);
+    /* width: auto; */
+    /* -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(0%, 0%);
 }
 
 .slick-dotted.slick-slider {
