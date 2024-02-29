@@ -1647,14 +1647,14 @@
                                             <a class="left-arrow indicator" href="#featureCarousel"
                                                 role="button"
                                                 data-bs-slide="prev">
-                                                Left Arrow
+                                                &#10094;
                                             </a>
                                             <a
                                                 class="right-arrow w-aut indicator"
                                                 href="#featureCarousel"
                                                 role="button"
                                                 data-bs-slide="next">
-                                                Right Arrow
+                                                &#10095;
                                             </a>
                                         </div>
                                         <!-- Add Slides To The Carousel -->
@@ -2333,14 +2333,14 @@
                                             <a class="left-arrow indicator" href="#SellerCarousel"
                                                 role="button"
                                                 data-bs-slide="prev">
-                                                <i class="fa-solid fa-xs fa-angle-left"></i>
+                                                &#10094;
                                             </a>
                                             <a
                                                 class="right-arrow w-aut indicator"
                                                 href="#SellerCarousel"
                                                 role="button"
                                                 data-bs-slide="next">
-                                                Right Arrow
+                                                &#10095;
                                             </a>
                                         </div>
                                         <!-- Add Slides To The Carousel -->

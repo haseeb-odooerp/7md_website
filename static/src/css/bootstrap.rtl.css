@@ -6579,6 +6579,7 @@ fieldset:disabled .btn {
   padding: 1rem 1rem;
   color: #212529;
 }
+
 /* .carousel {
   position: relative;
 }
@@ -6917,10 +6918,12 @@ fieldset:disabled .btn {
 
 .offcanvas-start {
   top: 0;
-  right: 0;
+  /* right: 0; */
+  right: -400px;
   width: 400px;
   border-left: 1px solid rgba(0, 0, 0, 0.2);
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
+  transform: translateX(-400px);
 }
 
 .offcanvas-end {

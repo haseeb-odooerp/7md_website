@@ -157,11 +157,13 @@
         text-decoration: none;
     }
     #featureContainer .indicator {
-        border: 1px solid rgb(202, 202, 202);
-        padding: 3px 6px 3px 6px;
+        border: 1px solid #d58e35;
+        padding: 10px 10px 10px 10px;
         position: absolute;
         top: 250px;
         z-index: 3;
+        font-size: 24px;
+        font-weight: 600;
     }
     #featureContainer .indicator.left-arrow {
         left: 0;
@@ -170,8 +172,8 @@
         right: 0;
     }
     #featureContainer .indicator:hover {
-        background-color: blue;
-        border: 1px solid blue;
+        background-color: #d58e35;
+        border: 1px solid #d58e35;
         transition: 200ms;
     }
     #featureContainer .indicator:hover {
@@ -179,7 +181,7 @@
         transition: 200ms;
     }
     #featureContainer .indicator {
-        color: lightgray;
+        color: #d58e35;
     }
     #featureContainer .float-end {
         padding-top: 10px;
@@ -260,11 +262,13 @@
         text-decoration: none;
     }
     #bestSellerCarousel .indicator {
-        border: 1px solid rgb(202, 202, 202);
-        padding: 3px 6px 3px 6px;
+        border: 1px solid #d58e35;
+        padding: 10px 10px 10px 10px;
         position: absolute;
         top: 250px;
         z-index: 3;
+        font-size: 24px;
+        font-weight: 600;
     }
     #bestSellerCarousel .indicator.left-arrow {
         left: 0;
@@ -273,8 +277,8 @@
         right: 0;
     }
     #bestSellerCarousel .indicator:hover {
-        background-color: blue;
-        border: 1px solid blue;
+        background-color: #d58e35;
+        border: 1px solid #d58e35;
         transition: 200ms;
     }
     #bestSellerCarousel .indicator:hover {
@@ -282,7 +286,7 @@
         transition: 200ms;
     }
     #bestSellerCarousel .indicator {
-        color: lightgray;
+        color: #d58e35;
     }
     #bestSellerCarousel .float-end {
         padding-top: 10px;
