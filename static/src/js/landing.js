@@ -1,7 +1,6 @@
 odoo.define(
     '7md_website.landing', function (require) {
         'use strict';
-
         console.log("ss")
         let myCarousel = document.querySelectorAll('#featureContainer .carousel .carousel-item');
         myCarousel.forEach((el) => {
