@@ -159,7 +159,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a href="javascript:void(0);"
+                                            <a t-attf-href="/web/session/logout?redirect=/shop/wishlist"
                                                 class="bg-transparent btn text-white">
                                                 <img
                                                     src="/7md_website/static/src/images/favourite.png"
