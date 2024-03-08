@@ -3481,7 +3481,630 @@
                     </div>
                 </div>
             </section>
+            <!-- Snippet -->
+            <section data-snippet="s_dynamic_snippet_products"
+                class="s_dynamic_snippet_products s_dynamic pt32 pb32 o_colored_level s_product_product_borderless_1"
+                data-name="Products" style="background-image: none;" data-product-category-id="all"
+                data-number-of-records="16" data-filter-id="1"
+                data-template-key="website_sale.dynamic_filter_template_product_product_borderless_1"
+                data-carousel-interval="5000">
+                <div class="container o_not_editable" contenteditable="false">
+                    <div class="css_non_editable_mode_hidden">
+                        <div
+                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                            Your Dynamic Snippet will be displayed here... This message is displayed
+                            because you did not provided both a filter and a template to use.<br/> </div>
+                    </div>
+                    <div class="dynamic_snippet_template">
+                        <div id="s_dynamic_snippet_10" class="carousel slide"
+                            data-bs-interval="5000" data-bs-ride="carousel">
 
+
+                            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+
+
+                                <div class="carousel-item active" style="min-height: 322.488px;">
+
+
+                                    <div class="row">
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="41" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/warranty-30#attr=8">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/41/image_512?unique=7529e45"
+                                                            alt="Warranty (1 year)" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Warranty (1 year)</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">20.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="42" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/warranty-30#attr=9">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/42/image_512?unique=7529e45"
+                                                            alt="Warranty (2 year)" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Warranty (2 year)</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">38.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="39" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/chair-floor-protection-29#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/39/image_512?unique=68f5dc7"
+                                                            alt="Chair floor protection" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Chair floor
+                                                        protection</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">12.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="36" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/customizable-desk-9#attr=7,3">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/36/image_512?unique=68f5dc7"
+                                                            alt="Customizable Desk (Custom, White)" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Customizable Desk
+                                                        (Custom, White)</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">750.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="carousel-item" style="min-height: 322.488px;">
+
+
+                                    <div class="row">
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="37" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/customizable-desk-9#attr=7,4">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/37/image_512?unique=68f5dc7"
+                                                            alt="Customizable Desk (Custom, Black)" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Customizable Desk
+                                                        (Custom, Black)</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">750.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="5" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/furn-7777-office-chair-5#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/5/image_512?unique=7529e45"
+                                                            alt="Office Chair" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Office Chair</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">70.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="6" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/furn-8888-office-lamp-6#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/6/image_512?unique=7529e45"
+                                                            alt="Office Lamp" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Office Lamp</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">40.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="7" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/furn-9999-office-design-software-7#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/7/image_512?unique=7529e45"
+                                                            alt="Office Design Software" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Office Design
+                                                        Software</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">280.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="carousel-item" style="min-height: 322.488px;">
+
+
+                                    <div class="row">
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="8" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/furn-7800-desk-combination-8#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/8/image_512?unique=7529e45"
+                                                            alt="Desk Combination" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Desk Combination</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">450.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="16" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com06-corner-desk-right-sit-10#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/16/image_512?unique=7529e45"
+                                                            alt="Corner Desk Right Sit" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Corner Desk Right Sit</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">147.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="17" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com07-large-cabinet-11#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/17/image_512?unique=7529e45"
+                                                            alt="Large Cabinet" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Large Cabinet</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">320.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="18" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com08-storage-box-12#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/18/image_512?unique=7529e45"
+                                                            alt="Storage Box" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Storage Box</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">15.80</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="carousel-item" style="min-height: 322.488px;">
+
+
+                                    <div class="row">
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="19" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com09-large-desk-13#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/19/image_512?unique=7529e45"
+                                                            alt="Large Desk" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Large Desk</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">
+                                                                1,799.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="20" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com10-pedal-bin-14#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/20/image_512?unique=7529e45"
+                                                            alt="Pedal Bin" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Pedal Bin</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">47.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="21" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/e-com11-cabinet-with-doors-15#attr=">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/21/image_512?unique=7529e45"
+                                                            alt="Cabinet with Doors" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Cabinet with Doors</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">140.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                        <div class="d-flex flex-grow-0 flex-shrink-0 col-3">
+                                            <div
+                                                class="o_carousel_product_card bg-transparent w-100 card border-0">
+                                                <input type="hidden" name="product-id"
+                                                    data-product-id="13" />
+                                                <a
+                                                    class="o_carousel_product_img_link o_dynamic_product_hovered stretched-link"
+                                                    href="/shop/customizable-desk-9#attr=1,4">
+                                                    <div class="overflow-hidden rounded">
+                                                        <img
+                                                            class="card-img-top o_img_product_square o_img_product_cover h-auto"
+                                                            loading="lazy"
+                                                            src="/web/image/product.product/13/image_512?unique=68f5dc7"
+                                                            alt="Customizable Desk (Steel, Black)" />
+                                                    </div>
+                                                </a>
+                                                <div
+                                                    class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
+                                                    <div class="h6 card-title">Customizable Desk
+                                                        (Steel, Black)</div>
+                                                    <div>
+                                                        <div class="mt-2">
+                                                            <span class="fw-bold"
+                                                                data-oe-type="monetary"
+                                                                data-oe-expression="record_price">$<span
+                                                                    class="oe_currency_value">750.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+                            <a href="#s_dynamic_snippet_10" class="carousel-control-prev"
+                                data-bs-slide="prev" role="button" aria-label="Previous"
+                                title="Previous">
+                                <span class="fa fa-chevron-circle-left fa-2x"
+                                    contenteditable="false">​</span>
+                                <span class="visually-hidden">Previous</span>
+                            </a>
+                            <a href="#s_dynamic_snippet_10" class="carousel-control-next"
+                                data-bs-slide="next" role="button" aria-label="Next" title="Next">
+                                <span class="fa fa-chevron-circle-right fa-2x"
+                                    contenteditable="false">​</span>
+                                <span class="visually-hidden">Next</span>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Contacts section -->
             <section class="container-fluid px-lg-4 main_container py-5">
                 <div class="card shadow-lg w-100">
