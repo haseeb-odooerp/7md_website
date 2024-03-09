@@ -3709,6 +3709,30 @@
                                                 <div
                                                     class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
                                                     <div class="h6 card-title">Office Chair</div>
+
+
+                                                    <!-- Wishlist Start -->
+                                                    <div class="o_wsale_product_btn fav-label">
+                                                        <button type="button" role="button"
+                                                            class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                            title="Add to Wishlist"
+                                                            data-action="o_wishlist"
+                                                            data-oe-model="ir.ui.view"
+                                                            data-oe-id="2431"
+                                                            data-oe-field="arch"
+                                                            data-oe-xpath="/data/xpath/t/button[1]"
+                                                            data-product-template-id="10"
+                                                            data-product-product-id="16">
+                                                            <span
+                                                                class="fa
+                                                    fa-heart"
+                                                                role="img"
+                                                                aria-label="Add to
+                                                    wishlist"></span>
+                                                        </button>
+                                                    </div>
+                                                    <!-- Wishlist End -->
+
                                                     <div>
                                                         <div class="mt-2">
                                                             <span class="fw-bold"
