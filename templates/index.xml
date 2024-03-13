@@ -3709,30 +3709,6 @@
                                                 <div
                                                     class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3">
                                                     <div class="h6 card-title">Office Chair</div>
-
-
-                                                    <!-- Wishlist Start -->
-                                                    <div class="o_wsale_product_btn fav-label">
-                                                        <button type="button" role="button"
-                                                            class="btn btn-outline-primary bg-white o_add_wishlist"
-                                                            title="Add to Wishlist"
-                                                            data-action="o_wishlist"
-                                                            data-oe-model="ir.ui.view"
-                                                            data-oe-id="2431"
-                                                            data-oe-field="arch"
-                                                            data-oe-xpath="/data/xpath/t/button[1]"
-                                                            data-product-template-id="10"
-                                                            data-product-product-id="16">
-                                                            <span
-                                                                class="fa
-                                                    fa-heart"
-                                                                role="img"
-                                                                aria-label="Add to
-                                                    wishlist"></span>
-                                                        </button>
-                                                    </div>
-                                                    <!-- Wishlist End -->
-
                                                     <div>
                                                         <div class="mt-2">
                                                             <span class="fw-bold"
@@ -4130,6 +4106,1763 @@
                     </div>
                 </div>
             </section>
+            <!-- Products -->
+            <div class="o_wsale_products_grid_table_wrapper pt-3 pt-lg-0">
+                <table class="table table-borderless h-100 m-0 o_wsale_context_thumb_cover"
+                    data-ppg="20" data-ppr="4" data-default-sort="website_sequence asc"
+                    data-name="Grid">
+                    <!-- <colgroup><col><col><col><col></colgroup> -->
+
+
+                    <tbody>
+                        <tr>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/customizable-desk-9">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="9"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/9/image_512/Customizable%20Desk?unique=11b025c"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="Customizable Desk" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/customizable-desk-9"
+                                                        content="Customizable Desk"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="9" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Customizable
+                                                        Desk</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="9"
+                                                        data-product-product-id="12">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">750.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        750.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/warranty-30">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="30"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/30/image_512/Warranty?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="Warranty" loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/warranty-30" content="Warranty"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="30" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Warranty</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="30"
+                                                        data-product-product-id="41">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">20.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        20.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/chair-floor-protection-29">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="29"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/29/image_512/Chair%20floor%20protection?unique=11b025c"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="Chair floor protection" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/chair-floor-protection-29"
+                                                        content="Chair floor protection"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="29" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Chair
+                                                        floor protection</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="29"
+                                                        data-product-product-id="39">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">12.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        12.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/conference-chair-16">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="16"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/16/image_512/Conference%20Chair?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="Conference Chair" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/conference-chair-16"
+                                                        content="Conference Chair"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="16" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Conference
+                                                        Chair</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="16"
+                                                        data-product-product-id="23">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">33.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        33.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-9999-office-design-software-7">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="7"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/7/image_512/%5BFURN_9999%5D%20Office%20Design%20Software?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_9999] Office Design Software"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-9999-office-design-software-7"
+                                                        content="Office Design Software"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="7" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Office
+                                                        Design Software</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        disabled="True" data-product-template-id="7"
+                                                        data-product-product-id="7">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">280.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        280.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-8900-drawer-black-19">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="19"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/19/image_512/%5BFURN_8900%5D%20Drawer%20Black?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_8900] Drawer Black"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-8900-drawer-black-19"
+                                                        content="Drawer Black"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="19" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Drawer
+                                                        Black</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        disabled="True"
+                                                        data-product-template-id="19"
+                                                        data-product-product-id="27">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">25.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        25.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-0789-individual-workplace-22">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="22"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/22/image_512/%5BFURN_0789%5D%20Individual%20Workplace?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_0789] Individual Workplace"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-0789-individual-workplace-22"
+                                                        content="Individual Workplace"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="22" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Individual
+                                                        Workplace</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="22"
+                                                        data-product-product-id="30">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">885.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        885.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-8999-three-seat-sofa-27">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="27"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/27/image_512/%5BFURN_8999%5D%20Three-Seat%20Sofa?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_8999] Three-Seat Sofa"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-8999-three-seat-sofa-27"
+                                                        content="Three-Seat Sofa"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="27" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Three-Seat
+                                                        Sofa</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="27"
+                                                        data-product-product-id="35">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">1,500.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        1500.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com10-pedal-bin-14">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="14"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/14/image_512/%5BE-COM10%5D%20Pedal%20Bin?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM10] Pedal Bin" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com10-pedal-bin-14"
+                                                        content="Pedal Bin"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="14" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Pedal Bin</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="14"
+                                                        data-product-product-id="20">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">47.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        47.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-7777-office-chair-5">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="5"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/5/image_512/%5BFURN_7777%5D%20Office%20Chair?unique=3ead5b9"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_7777] Office Chair"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-7777-office-chair-5"
+                                                        content="Office Chair"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="5" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Office
+                                                        Chair</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="5"
+                                                        data-product-product-id="5">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">100.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        100.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-0269-office-chair-black-17">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="17"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/17/image_512/%5BFURN_0269%5D%20Office%20Chair%20Black?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_0269] Office Chair Black"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-0269-office-chair-black-17"
+                                                        content="Office Chair Black"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="17" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Office
+                                                        Chair Black</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="17"
+                                                        data-product-product-id="25">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">120.50</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        120.5</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-8888-office-lamp-6">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="6"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/6/image_512/%5BFURN_8888%5D%20Office%20Lamp?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_8888] Office Lamp" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-8888-office-lamp-6"
+                                                        content="Office Lamp"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="6" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Office
+                                                        Lamp</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="6"
+                                                        data-product-product-id="6">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">40.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        40.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com06-corner-desk-right-sit-10">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="10"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/10/image_512/%5BE-COM06%5D%20Corner%20Desk%20Right%20Sit?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM06] Corner Desk Right Sit"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com06-corner-desk-right-sit-10"
+                                                        content="Corner Desk Right Sit"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="10" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Corner
+                                                        Desk Right Sit</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="10"
+                                                        data-product-product-id="16">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">147.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        147.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com07-large-cabinet-11">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="11"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/11/image_512/%5BE-COM07%5D%20Large%20Cabinet?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM07] Large Cabinet" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com07-large-cabinet-11"
+                                                        content="Large Cabinet"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="11" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Large
+                                                        Cabinet</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="11"
+                                                        data-product-product-id="17">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">320.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        320.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com08-storage-box-12">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="12"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/12/image_512/%5BE-COM08%5D%20Storage%20Box?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM08] Storage Box" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com08-storage-box-12"
+                                                        content="Storage Box"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="12" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Storage
+                                                        Box</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="12"
+                                                        data-product-product-id="18">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">15.80</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        15.8</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com09-large-desk-13">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="13"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/13/image_512/%5BE-COM09%5D%20Large%20Desk?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM09] Large Desk" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com09-large-desk-13"
+                                                        content="Large Desk"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="13" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Large Desk</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="13"
+                                                        data-product-product-id="19">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">1,799.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        1799.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/e-com11-cabinet-with-doors-15">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="15"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/15/image_512/%5BE-COM11%5D%20Cabinet%20with%20Doors?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[E-COM11] Cabinet with Doors"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/e-com11-cabinet-with-doors-15"
+                                                        content="Cabinet with Doors"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="15" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Cabinet
+                                                        with Doors</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="15"
+                                                        data-product-product-id="21">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">140.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        140.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-7888-desk-stand-with-screen-21">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="21"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/21/image_512/%5BFURN_7888%5D%20Desk%20Stand%20with%20Screen?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_7888] Desk Stand with Screen"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-7888-desk-stand-with-screen-21"
+                                                        content="Desk Stand with Screen"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="21" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Desk Stand
+                                                        with Screen</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="21"
+                                                        data-product-product-id="29">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">2,100.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        2100.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-6666-acoustic-bloc-screens-23">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="23"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/23/image_512/%5BFURN_6666%5D%20Acoustic%20Bloc%20Screens?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_6666] Acoustic Bloc Screens"
+                                                        loading="lazy" style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-6666-acoustic-bloc-screens-23"
+                                                        content="Acoustic Bloc Screens"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="23" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Acoustic
+                                                        Bloc Screens</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="23"
+                                                        data-product-product-id="31">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">295.00</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        295.0</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+
+                            <td class="oe_product" data-name="Product">
+                                <div
+                                    class="o_wsale_product_grid_wrapper position-relative h-100 o_wsale_product_grid_wrapper_1_1">
+                                    <form action="/shop/cart/update" method="post"
+                                        class="oe_product_cart h-100 d-flex" itemscope="itemscope"
+                                        itemtype="http://schema.org/Product" data-publish="on">
+
+
+                                        <div
+                                            class="oe_product_image position-relative h-100 flex-grow-0 overflow-hidden">
+                                            <input type="hidden" name="csrf_token"
+                                                data-oe-model="ir.ui.view" data-oe-id="1248"
+                                                data-oe-field="arch"
+                                                data-oe-xpath="/t[1]/form[1]/div[1]/input[1]"
+                                                value="7e9f30d5a8791bd2ea71a98004f377035a17c65do1741504566" />
+                                            <a
+                                                class="oe_product_image_link d-block h-100 position-relative"
+                                                itemprop="url" contenteditable="false"
+                                                href="/shop/furn-8855-drawer-24">
+                                                <span
+                                                    class="oe_product_image_img_wrapper d-flex h-100 justify-content-center align-items-center position-absolute"
+                                                    data-oe-xpath="/t[1]/form[1]/div[1]/a[1]/span[1]"
+                                                    data-oe-model="product.template" data-oe-id="24"
+                                                    data-oe-field="image_1920" data-oe-type="image"
+                                                    data-oe-expression="image_holder.image_1920">
+                                                    <img
+                                                        src="/web/image/product.template/24/image_512/%5BFURN_8855%5D%20Drawer?unique=ab2d743"
+                                                        itemprop="image"
+                                                        class="img img-fluid h-100 w-100 position-absolute"
+                                                        alt="[FURN_8855] Drawer" loading="lazy"
+                                                        style="" />
+                                                </span>
+
+                                                <span class="o_ribbon o_not_editable " style=""></span>
+                                            </a>
+                                        </div>
+                                        <div
+                                            class="o_wsale_product_information position-relative d-flex flex-column flex-grow-1 flex-shrink-1">
+                                            <div
+                                                class="o_wsale_product_information_text flex-grow-1">
+                                                <h6 class="o_wsale_products_item_title mb-2">
+                                                    <a class="text-primary text-decoration-none"
+                                                        itemprop="name"
+                                                        data-oe-xpath="/t[1]/form[1]/div[2]/div[1]/h6[1]/a[1]"
+                                                        href="/shop/furn-8855-drawer-24"
+                                                        content="Drawer"
+                                                        data-oe-model="product.template"
+                                                        data-oe-id="24" data-oe-field="name"
+                                                        data-oe-type="char"
+                                                        data-oe-expression="product.name">Drawer</a>
+                                                </h6>
+                                            </div>
+                                            <div
+                                                class="o_wsale_product_sub d-flex justify-content-between align-items-end pb-1">
+                                                <div class="o_wsale_product_btn">
+
+                                                    <button type="button" role="button"
+                                                        class="btn btn-outline-primary bg-white o_add_wishlist"
+                                                        title="Add to Wishlist"
+                                                        data-action="o_wishlist"
+                                                        data-oe-model="ir.ui.view" data-oe-id="2431"
+                                                        data-oe-field="arch"
+                                                        data-oe-xpath="/data/xpath/t/button[1]"
+                                                        data-product-template-id="24"
+                                                        data-product-product-id="32">
+                                                        <span class="fa fa-heart" role="img"
+                                                            aria-label="Add to wishlist"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="product_price" itemprop="offers"
+                                                    itemscope="itemscope"
+                                                    itemtype="http://schema.org/Offer">
+                                                    <span class="h6 mb-0" data-oe-type="monetary"
+                                                        data-oe-expression="template_price_vals['price_reduce']">
+                                                        $<span class="oe_currency_value">110.50</span></span>
+                                                    <span itemprop="price" style="display:none;">
+                                                        110.5</span>
+                                                    <span itemprop="priceCurrency"
+                                                        style="display:none;">USD</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <!-- Contacts section -->
             <section class="container-fluid px-lg-4 main_container py-5">
                 <div class="card shadow-lg w-100">
