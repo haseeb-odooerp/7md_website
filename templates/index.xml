@@ -1636,11 +1636,35 @@
                     <div
                         class="col-md-12 col-sm-12 pt-md-0 pt-3 justify-content-center flex-grow-1 align-items-center col-md-8 col-lg-9">
                         <div class="slider w-100 slider-offer-bottom-fix">
-                            <div id="featureContainer">
+                            <section data-snippet="s_dynamic_snippet_products"
+                                class="s_dynamic_snippet_products s_dynamic o_colored_level s_product_product_borderless_1"
+                                data-name="Products" style="background-image: none;"
+                                data-product-category-id="all"
+                                data-number-of-records="16" data-filter-id="1"
+                                data-template-key="website_sale.dynamic_filter_template_product_product_borderless_1"
+                                data-carousel-interval="5000">
+                                <div class="o_not_editable" contenteditable="false">
+                                    <div class="css_non_editable_mode_hidden">
+                                        <div
+                                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                                            Your Dynamic Snippet will be displayed here... This
+                                            message is displayed because you did not provided both a
+                                            filter and a template to use.<br />
+                                        </div>
+                                    </div>
+                                    <div class="dynamic_snippet_template">
+                                        <div id="s_dynamic_snippet_10" class="carousel slide"
+                                            data-bs-interval="5000" data-bs-ride="carousel">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- <div id="featureContainer">
                                 <div class="row mx-auto my-auto justify-content-center">
                                     <div id="featureCarousel" class="carousel slide"
                                         data-bs-ride="carousel">
-                                        <!-- Carousel Controls. OPTIONAL -->
                                         <div class="float-end pe-md-4">
                                             <a class="left-arrow indicator" href="#featureCarousel"
                                                 role="button"
@@ -1655,14 +1679,13 @@
                                                 &#10095;
                                             </a>
                                         </div>
-                                        <!-- Add Slides To The Carousel -->
                                         <div class="carousel-inner" role="listbox">
                                             <div class="carousel-item active">
                                                 <div class="col-md-3 mx-2">
                                                     <div class="card product-card">
                                                         <div class="product-card-image p-3">
                                                             <a
-                                                                href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                            href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
                                                                 class="product-image">
                                                                 <img
                                                                     src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
@@ -1717,7 +1740,7 @@
                                                     <div class="card product-card">
                                                         <div class="product-card-image p-3">
                                                             <a
-                                                                href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                            href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
                                                                 class="product-image">
                                                                 <img
                                                                     src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
@@ -1772,7 +1795,7 @@
                                                     <div class="card product-card">
                                                         <div class="product-card-image p-3">
                                                             <a
-                                                                href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                            href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
                                                                 class="product-image">
                                                                 <img
                                                                     src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
@@ -1879,7 +1902,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
