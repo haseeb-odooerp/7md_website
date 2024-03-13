@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "ProximaNova";
+    src: url("/7md_website/static/src/fonts/ProximaNovaFont.otf");
+}
+
+* {
+    font-family: "ProximaNova" !important;
+}
 .navbar {
     .hamburger-icon {
         max-width: 22px;
@@ -35,6 +43,19 @@
             height: 100%;
         }
     }
+}
+a.nav-link.text-white {
+    font-family: "ProximaNova" !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 8px !important;
+    margin-left: 2px !important;
+    margin-right: 2px !important;
+}
+.cart-with-price-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 // Filter Product section

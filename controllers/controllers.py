@@ -11,5 +11,15 @@ class MdWebsite(http.Controller):
         return request.render('7md_website.home')
     
 
+class about7md(http.Controller):
+    @http.route('/about', auth='public', type='http', website=True)
+    def index(self, **kw):
+        return request.render('7md_website.about')
+    
 
+class contact7md(http.Controller):
+    @http.route('/contact', auth='public', type='http', website=True)
+    def index(self, **kw):
+        return request.render('7md_website.contact')
+    
 

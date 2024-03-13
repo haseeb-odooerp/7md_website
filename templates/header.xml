@@ -99,22 +99,32 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
+                                            <div
+                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
                                                 <div class="dropdown">
-                                                    <button class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        <t t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]"/>
+                                                    <button
+                                                        class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle"
+                                                        type="button" id="languageDropdown"
+                                                        data-bs-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false">
+                                                        <t
+                                                            t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]" />
                                                     </button>
-                                                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
-                                                        <a class="dropdown-item" t-att-href="'/website/lang/ar'">العربية</a>
-                                                        <a class="dropdown-item" t-att-href="'/website/lang/en'">English</a>
+                                                    <div class="dropdown-menu"
+                                                        aria-labelledby="languageDropdown">
+                                                        <a class="dropdown-item"
+                                                            t-att-href="'/website/lang/ar'">العربية</a>
+                                                        <a class="dropdown-item"
+                                                            t-att-href="'/website/lang/en'">English</a>
                                                         <!-- Add more languages as needed -->
                                                     </div>
                                                 </div>
-                                                <t t-call="website.placeholder_header_language_selector">
-                                                    <t t-set="_div_classes" t-valuef="my-auto ms-lg-2"/>
+                                                <t
+                                                    t-call="website.placeholder_header_language_selector">
+                                                    <t t-set="_div_classes"
+                                                        t-valuef="my-auto ms-lg-2" />
                                                 </t>
                                             </div>
-                                            
 
 
                                         </div>
@@ -150,7 +160,8 @@
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item"
-                                                        t-attf-href="/web/session/logout?redirect=/shop/cart">My Orders</a>
+                                                            t-attf-href="/web/session/logout?redirect=/shop/cart">My
+                                                            Orders</a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item text-danger"
@@ -159,14 +170,16 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a t-attf-href="/web/session/logout?redirect=/shop/wishlist"
+                                            <a
+                                                t-attf-href="/web/session/logout?redirect=/shop/wishlist"
                                                 class="bg-transparent btn text-white">
                                                 <img
                                                     src="/7md_website/static/src/images/favourite.png"
                                                     width="36" height="36" />
                                             </a>
                                             <div class="dropdown d-inline-block">
-                                                <button class="btn btn-sm bg-transparent text-white"
+                                                <button
+                                                    class="btn btn-sm bg-transparent text-white cart-with-price-header"
                                                     type="button" data-bs-toggle="offcanvas"
                                                     data-bs-target="#shopping-cart-offcanvas"
                                                     aria-controls="shopping-cart-offcanvas">
@@ -187,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                  
+
                     <div class="container-fluid d-flex flex-row-reverse flex-lg-row bg-primary py-2">
                         <div class="div header-menu d-none d-lg-flex" id="header-menu">
                             <div class="navbar-expand navbar-collapse">
@@ -223,7 +236,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div
+                        <!-- <div
                             class="offers-header-btn-group flex-grow-0 d-flex justify-content-start justify-content-lg-end">
                             <a href="https://www.7md.ae/en/brands/7mdstore/products"
                                 class="btn-primary text-white border-white mx-2 py-2 btn">7md Store</a>
@@ -236,6 +249,36 @@
                                 <img src="/7md_website/static/src/images/offer-icon.svg"
                                     class="offer_btn_icon" />
                                 <span class="offer_btn_text">Offer Deals</span>
+                            </a>
+                        </div> -->
+                        <div
+                            class="offers-header-btn-group flex-grow-0 d-flex justify-content-center justify-content-md-end justify-content-lg-end">
+                            <a href="https://www.instagram.com/7mdstore/?hl=en"
+                                data-event_name="instagram_button_click"
+                                data-category="Instagram Message" data-label="Instagram"
+                                target="_blank"
+                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@7mdst"
+                                data-event_name="tiktok_button_click" data-category="Tiktok Show"
+                                data-label="Tiktok" target="_blank"
+                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                                <i class="fa fa-tiktok"></i>
+                            </a>
+                            <a href="https://wa.me/971544441888"
+                                data-event_name="whatsapp_button_click"
+                                data-category="Whatsapp Message" data-label="Whatsapp"
+                                target="_blank"
+                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                                <i class="fa fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.snapchat.com/add/store7md"
+                                data-event_name="snapchat_button_click"
+                                data-category="Snapchat Message" data-label="Snapchat"
+                                target="_blank"
+                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                                <i class="fa fa-snapchat"></i>
                             </a>
                         </div>
                     </div>
