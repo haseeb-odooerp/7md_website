@@ -28,6 +28,7 @@
         'templates/about.xml',
         'templates/contact.xml',
         'templates/product_test_template.xml',
+        'templates/credential_layout.xml',
         'templates/footer.xml',
         # 'views/views.xml',
         # 'views/templates.xml',

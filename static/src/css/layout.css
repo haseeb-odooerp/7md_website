@@ -165,7 +165,7 @@ input[type=number]:focus,
 .product-filter-navbar .nav-link.active path,
 .product-filter-navbar .nav-link:hover path {
     fill: #D9551C;
-    stroke: #D9551C;
+stroke: #D9551C;
 }
 
 .ratings {
