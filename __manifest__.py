@@ -63,6 +63,7 @@
             "7md_website/static/src/js/bootstrap.bundle.min.js",
             "7md_website/static/src/js/bootstrap.bundle.min.js.map",
             
+            
         ],
     },
 }
