@@ -6,47 +6,56 @@
                 <nav class="navbar bg-black p-0 m-0 top_nav">
                     <div class="container-fluid py-2 fixed-top bg-black">
                         <div
-                            class="col-12 d-flex col-md-12 col-lg-2 flex-row-reverse flex-lg-row justify-content-between align-items-center">
+                                class="col-12 d-flex col-md-12 col-lg-2 flex-row-reverse flex-lg-row justify-content-between align-items-center">
                             <a
-                                class="flex-grow-1 flex-lg-grow-0 align-self-md-start text-center d-none d-lg-block"
-                                href="javascript:void(0);">
+                                    class="flex-grow-1 flex-lg-grow-0 align-self-md-start text-center d-none d-lg-block"
+                                    href="javascript:void(0);">
                                 <img src="/7md_website/static/src/images/7md-logo-322@2x.png"
-                                    alt="Logo" width="118"
-                                    height="68"
-                                    class="d-inline-block align-text-top" />
+                                     alt="Logo" width="118"
+                                     height="68"
+                                     class="d-inline-block align-text-top"/>
                             </a>
                             <button class="navbar-toggler text-light border-0 d-none d-lg-block"
-                                type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#main-menu" aria-controls="main-menu"
-                                aria-label="Main Menu">
+                                    type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#main-menu" aria-controls="main-menu"
+                                    aria-label="Main Menu">
                                 <img src="7md_website/static/src/images/hamburger.png"
-                                    alt="hamburger icon"
-                                    class="img-fluid hamburger-icon" />
+                                     alt="hamburger icon"
+                                     class="img-fluid hamburger-icon"/>
                             </button>
                         </div>
                         <div class="col flex-grow-1 pt-2 pt-lg-0">
                             <div class="d-flex flex-md-row flex-column w-100">
                                 <div
-                                    class="d-flex px-lg-4 col-md-6 col-12 px-2 flex-grow-1 justify-content-around align-items-center">
+                                        class="d-flex px-lg-4 col-md-6 col-12 px-2 flex-grow-1 justify-content-around align-items-center">
                                     <button type="button" data-bs-toggle="offcanvas"
-                                        data-bs-target="#main-menu" aria-controls="main-menu"
-                                        aria-label="Main Menu"
-                                        class="navbar-toggler text-light border-0 d-block d-lg-none">
+                                            data-bs-target="#main-menu" aria-controls="main-menu"
+                                            aria-label="Main Menu"
+                                            class="navbar-toggler text-light border-0 d-block d-lg-none">
                                         <img src="7md_website/static/src/images/hamburger.png"
-                                            alt="hamburger icon"
-                                            class="img-fluid hamburger-icon" />
+                                             alt="hamburger icon"
+                                             class="img-fluid hamburger-icon"/>
                                     </button>
 
                                     <div class="main_search_box">
                                         <div class="header-search">
                                             <form class="search-form">
                                                 <div class="input-group search_input_container">
-                                                    <input type="text" name="query"
-                                                        autocomplete="off"
-                                                        placeholder="I am shopping for......."
-                                                        class="form-control search-input" />
+                                                    <!--                                                    <input type="text" name="query"-->
+                                                    <!--                                                        autocomplete="off"-->
+                                                    <!--                                                        placeholder="I am shopping for......."-->
+                                                    <!--                                                        class="form-control search-input" />-->
+                                                    <t t-call="website.website_search_box_input">
+                                                        <t t-set="search_type" t-valuef="all"/>
+                                                        <t t-set="action" t-valuef="/website/search"/>
+                                                        <t t-set="limit" t-valuef="5"/>
+                                                        <t t-set="display_image" t-valuef="true"/>
+                                                        <t t-set="display_description" t-valuef="true"/>
+                                                        <t t-set="display_extra_link" t-valuef="true"/>
+                                                        <t t-set="display_detail" t-valuef="true"/>
+                                                    </t>
                                                     <select name="category"
-                                                        class="form-control form-select">
+                                                            class="form-control form-select">
                                                         <option value="">All Categories</option>
                                                         <option value="mobile-phones">Mobile Phones</option>
                                                         <option value="mobile-accessories">
@@ -63,7 +72,7 @@
                                                         </option>
                                                     </select>
                                                     <button type="submit"
-                                                        class="btn btn-primary px-4">
+                                                            class="btn btn-primary px-4">
                                                         <i id="search_icon" class="fa fa-search"></i>
                                                     </button>
                                                 </div>
@@ -73,56 +82,60 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="d-flex pt-2 pt-md-0 col header-icons justify-content-start justify-content-md-end align-items-center">
+                                        class="d-flex pt-2 pt-md-0 col header-icons justify-content-start justify-content-md-end align-items-center">
                                     <div class="col-4">
                                         <div
-                                            class="d-flex pt-2 pt-md-0 ustify-content-start align-items-center">
+                                                class="d-flex pt-2 pt-md-0 ustify-content-start align-items-center">
                                             <div
-                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
+                                                    class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
                                                 <div class="dropdown">
                                                     <button
-                                                        class="btn btn-sm bg-transparent text-white dropdown-toggle"
-                                                        type="button"
-                                                        data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
+                                                            class="btn btn-sm bg-transparent text-white dropdown-toggle"
+                                                            type="button"
+                                                            data-bs-toggle="dropdown"
+                                                            aria-expanded="false">
                                                         AED
                                                     </button>
                                                     <ul class="dropdown-menu">
                                                         <li>
                                                             <a class="dropdown-item"
-                                                                href="javascript:void(0);">AED</a>
+                                                               href="javascript:void(0);">AED
+                                                            </a>
                                                         </li>
                                                         <li>
                                                             <a class="dropdown-item"
-                                                                href="javascript:void(0);">USD</a>
+                                                               href="javascript:void(0);">USD
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div
-                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
+                                                    class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
                                                 <div class="dropdown">
                                                     <button
-                                                        class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle"
-                                                        type="button" id="languageDropdown"
-                                                        data-bs-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false">
+                                                            class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle"
+                                                            type="button" id="languageDropdown"
+                                                            data-bs-toggle="dropdown"
+                                                            aria-haspopup="true" aria-expanded="false">
                                                         <t
-                                                            t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]" />
+                                                                t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]"/>
                                                     </button>
                                                     <div class="dropdown-menu"
-                                                        aria-labelledby="languageDropdown">
+                                                         aria-labelledby="languageDropdown">
                                                         <a class="dropdown-item"
-                                                            t-att-href="'/website/lang/ar'">العربية</a>
+                                                           t-att-href="'/website/lang/ar'">العربية
+                                                        </a>
                                                         <a class="dropdown-item"
-                                                            t-att-href="'/website/lang/en'">English</a>
+                                                           t-att-href="'/website/lang/en'">English
+                                                        </a>
                                                         <!-- Add more languages as needed -->
                                                     </div>
                                                 </div>
                                                 <t
-                                                    t-call="website.placeholder_header_language_selector">
+                                                        t-call="website.placeholder_header_language_selector">
                                                     <t t-set="_div_classes"
-                                                        t-valuef="my-auto ms-lg-2" />
+                                                       t-valuef="my-auto ms-lg-2"/>
                                                 </t>
                                             </div>
 
@@ -132,65 +145,69 @@
                                     <div class="col-3">
                                         <div class="px-md-2 d-flex justify-content-center">
                                             <a href="https://www.7md.ae/en"
-                                                class="d-block d-lg-none">
+                                               class="d-block d-lg-none">
                                                 <img
-                                                    src="https://www.7md.ae/themes/sevenmd/public/assets/images/7md-logo_53_30.png"
-                                                    alt="Logo"
-                                                    class="img-fluid" />
+                                                        src="https://www.7md.ae/themes/sevenmd/public/assets/images/7md-logo_53_30.png"
+                                                        alt="Logo"
+                                                        class="img-fluid"/>
                                             </a>
                                         </div>
                                     </div>
 
                                     <div class="col-5">
                                         <div
-                                            class="px-md-2 flex-grow-1 flex-md-grow-0 d-flex justify-content-center">
+                                                class="px-md-2 flex-grow-1 flex-md-grow-0 d-flex justify-content-center">
                                             <div class="dropdown d-inline-block">
                                                 <button
-                                                    class="btn btn-sm bg-transparent text-white dropdown-toggle"
-                                                    type="button"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                        class="btn btn-sm bg-transparent text-white dropdown-toggle"
+                                                        type="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
                                                     <img
-                                                        src="/7md_website/static/src/images/PROFILE.png"
-                                                        width="36" height="36" />
+                                                            src="/7md_website/static/src/images/PROFILE.png"
+                                                            width="36" height="36"/>
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li>
                                                         <a class="dropdown-item"
-                                                            href="javascript:void(0);">My Profile</a>
+                                                           href="javascript:void(0);">My Profile
+                                                        </a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item"
-                                                            t-attf-href="/web/session/logout?redirect=/shop/cart">My
-                                                            Orders</a>
+                                                           t-attf-href="/web/session/logout?redirect=/shop/cart">My
+                                                            Orders
+                                                        </a>
                                                     </li>
                                                     <li>
                                                         <a class="dropdown-item text-danger"
-                                                            t-attf-href="/web/session/logout?redirect=/web/login">
-                                                            Logout</a>
+                                                           t-attf-href="/web/session/logout?redirect=/web/login">
+                                                            Logout
+                                                        </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <a
-                                                t-attf-href="/web/session/logout?redirect=/shop/wishlist"
-                                                class="bg-transparent btn text-white">
+                                                    t-attf-href="/web/session/logout?redirect=/shop/wishlist"
+                                                    class="bg-transparent btn text-white">
                                                 <img
-                                                    src="/7md_website/static/src/images/favourite.png"
-                                                    width="36" height="36" />
+                                                        src="/7md_website/static/src/images/favourite.png"
+                                                        width="36" height="36"/>
                                             </a>
                                             <div class="dropdown d-inline-block">
                                                 <button
-                                                    class="btn btn-sm bg-transparent text-white cart-with-price-header"
-                                                    type="button" data-bs-toggle="offcanvas"
-                                                    data-bs-target="#shopping-cart-offcanvas"
-                                                    aria-controls="shopping-cart-offcanvas">
+                                                        class="btn btn-sm bg-transparent text-white cart-with-price-header"
+                                                        type="button" data-bs-toggle="offcanvas"
+                                                        data-bs-target="#shopping-cart-offcanvas"
+                                                        aria-controls="shopping-cart-offcanvas">
                                                     <span class="icon position-relative">
                                                         <img
-                                                            src="/7md_website/static/src/images/CART.png"
-                                                            width="36" height="36" />
+                                                                src="/7md_website/static/src/images/CART.png"
+                                                                width="36" height="36"/>
                                                         <span class="badge_price bg-success">2</span>
                                                     </span>
                                                     <span class="arrow_price d-none d-xl-inline">
-                                                        2000AED</span>
+                                                        2000AED
+                                                    </span>
                                                 </button>
                                                 <div class="dropdown-menu cart-menu p-3"></div>
                                             </div>
@@ -207,31 +224,38 @@
                                 <ul class="navbar-nav text-white">
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" aria-current="page"
-                                            href="javascript:void(0);">Electronics</a>
+                                           href="javascript:void(0);">Electronics
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">Health
-                                            Personal Care</a>
+                                            Personal Care
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">Home
-                                            Improvements</a>
+                                            Improvements
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">
-                                            Fashion</a>
+                                            Fashion
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">Mobile
-                                            Tablets</a>
+                                            Tablets
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">Outdoor
-                                            Fitness</a>
+                                            Fitness
+                                        </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">Smart
-                                            Watches Band</a>
+                                            Watches Band
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -252,46 +276,46 @@
                             </a>
                         </div> -->
                         <div
-                            class="offers-header-btn-group flex-grow-0 d-flex justify-content-center justify-content-md-end justify-content-lg-end">
+                                class="offers-header-btn-group flex-grow-0 d-flex justify-content-center justify-content-md-end justify-content-lg-end">
                             <a href="https://www.instagram.com/7mdstore/?hl=en"
-                                data-event_name="instagram_button_click"
-                                data-category="Instagram Message" data-label="Instagram"
-                                target="_blank"
-                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                               data-event_name="instagram_button_click"
+                               data-category="Instagram Message" data-label="Instagram"
+                               target="_blank"
+                               class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
                                 <i class="fa fa-instagram"></i>
                             </a>
                             <a href="https://www.tiktok.com/@7mdst"
-                                data-event_name="tiktok_button_click" data-category="Tiktok Show"
-                                data-label="Tiktok" target="_blank"
-                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                               data-event_name="tiktok_button_click" data-category="Tiktok Show"
+                               data-label="Tiktok" target="_blank"
+                               class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
                                 <i class="fa fa-tiktok"></i>
                             </a>
                             <a href="https://wa.me/971544441888"
-                                data-event_name="whatsapp_button_click"
-                                data-category="Whatsapp Message" data-label="Whatsapp"
-                                target="_blank"
-                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                               data-event_name="whatsapp_button_click"
+                               data-category="Whatsapp Message" data-label="Whatsapp"
+                               target="_blank"
+                               class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
                                 <i class="fa fa-whatsapp"></i>
                             </a>
                             <a href="https://www.snapchat.com/add/store7md"
-                                data-event_name="snapchat_button_click"
-                                data-category="Snapchat Message" data-label="Snapchat"
-                                target="_blank"
-                                class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
+                               data-event_name="snapchat_button_click"
+                               data-category="Snapchat Message" data-label="Snapchat"
+                               target="_blank"
+                               class="btn-primary text-white border-white mx-2 py-2 btn nav-social-icon link_click">
                                 <i class="fa fa-snapchat"></i>
                             </a>
                         </div>
                     </div>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="shopping-cart-offcanvas"
-                        aria-labelledby="shopping-cart-offcanvas-label">
+                         aria-labelledby="shopping-cart-offcanvas-label">
                         <div class="offcanvas-header border">
                             <h2 class="offcanvas-title text-center text-primary"
                                 id="shopping-cart-offcanvas-label">
                                 My Cart
                             </h2>
                             <button type="button" class="btn-close rounded-circle bg-primary"
-                                data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body d-flex flex-column justify-content-between">
                             <div class="cart-content flex-grow-1">
@@ -299,7 +323,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -308,20 +332,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -331,7 +355,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -340,20 +364,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -362,7 +386,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -371,20 +395,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -393,7 +417,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -402,20 +426,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -424,7 +448,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -433,20 +457,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -455,7 +479,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -464,20 +488,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -486,7 +510,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -495,20 +519,20 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
@@ -517,7 +541,7 @@
                                     <div class="card-horizontal">
                                         <div class="card-img-container">
                                             <img src="/7md_website/static/src/images/item-small.png"
-                                                alt="alt image here" class="card-img-top" />
+                                                 alt="alt image here" class="card-img-top"/>
                                         </div>
                                         <div class="d-flex flex-column">
                                             <h5 class="card-title fw-light mb-1 mt-2">
@@ -526,27 +550,27 @@
                                                 Receiver Clip Transmitter Adult Care Training
                                             </h5>
                                             <div
-                                                class="input-group-sm w-50 rounded-3 border input-group">
+                                                    class="input-group-sm w-50 rounded-3 border input-group">
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     -
                                                 </button>
                                                 <input class="form-control text-center"
-                                                    name="item-quantity" value="2" />
+                                                       name="item-quantity" value="2"/>
                                                 <button type="button"
-                                                    class="btn-sm btn border btn-light">
+                                                        class="btn-sm btn border btn-light">
                                                     +
                                                 </button>
                                             </div>
                                             <div class="prices pt-1">
-                                                <span class="price"> AED499</span>
+                                                <span class="price">AED499</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                class="d-flex flex-column border border-light justify-content-between">
+                                    class="d-flex flex-column border border-light justify-content-between">
                                 <div class="total d-flex p-2 justify-content-between">
                                     <div class="fw-bold">Total:</div>
                                     <div class="price">AED12000</div>
@@ -560,12 +584,12 @@
                     </div>
 
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="main-menu"
-                        aria-labelledby="main-menu-label">
+                         aria-labelledby="main-menu-label">
                         <div class="offcanvas-header bg-black">
-                            <img src="/7md_website/static/src/images/7md-logo.png" />
+                            <img src="/7md_website/static/src/images/7md-logo.png"/>
                             <button type="button" class="btn-close bg-primary rounded-circle"
-                                data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body d-flex flex-column justify-content-between">
                             <ul class="list-group product-cat">
