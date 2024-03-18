@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="7md_website.about" name="7md About">
+        <t t-call="website.layout">
+            <section class="container-fluid bg-white py-2 breadcrumb-section mb-4">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb p-2 mb-0">
+                                <li class="breadcrumb-item text-capitalize">home</li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a href="#" class="text-decoration-none text-capitalize"
+                                    >About</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid px-lg-4 main_container">
+                <div class="card mb-4">
+                    <div class="card-title border-bottom p-4 text-center">
+                        <h1 class="custom-title position-relative">About Us</h1>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="row row-cols-2 align-items-center">
+                            <div class="col-12 col-md-6">
+                                <p class="mb-4 mb-md-0">
+                                    Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida
+                                    et mattis vulputate, tristique u t lectus. Sed et lorem nunc.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                    posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus
+                                    adipiscing nisl ut dolor dignissim semper. Nulla luctus
+                                    malesuada tincidunt. Class aptent taciti sociosqu ad litora
+                                    torquent per conubia nostra, per inceptos himenaeos. Integer
+                                    enim purus, posuere at ultricies eu, placerat a felis.
+                                    Suspendisse aliquet urna pretium eros convallis interdum.
+                                    Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et
+                                    nulla purus. Mauris vel tellus non nunc mattis lobortis. Nunc
+                                    facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et
+                                    mattis vulputate, tristique ut lectus. Sed et lorem nunc.
+                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                                    posuere cubilia Curae.
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 text-center">
+                                <img
+                                    class="img-fluid rounded-3"
+                                    src="/7md_website/static/src/images/placeholder.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid px-lg-4 main_container py-5">
+                <div class="card shadow-lg w-100">
+                    <div class="card-body">
+                        <div
+                            class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center"
+                        >
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-faq-2718218.png"
+                                        class="contact_us_item_img"
+                                    />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Inquiries orders:</p>
+                                    <p class="fw-bold p-0 m-0">+971 54 444 1888</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-customer-service-4516522.png"
+                                        class="contact_us_item_img"
+                                    />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Customer Services:</p>
+                                    <p class="fw-bold p-0 m-0">+971 50 628 8806</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-support-service-5325669.png"
+                                        class="contact_us_item_img"
+                                    />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Support Services:</p>
+                                    <p class="fw-bold p-0 m-0">+971 50 388 8087</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-customer-complaint-2670150.png"
+                                        class="contact_us_item_img"
+                                    />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Suggestions and Complaints:</p>
+                                    <p class="fw-bold p-0 m-0">+971 56 749 2096</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col flex-grow-1 py-2 d-flex flex-column align-items-center align-items-md-start justify-content-center"
+                            >
+                                <div class="contact_us_item d-flex">
+                                    <div class="p-2">
+                                        <img
+                                            src="/7md_website/static/src/images/message.svg" />
+                                    </div>
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <p class="fw-bold p-0 m-0">Info@7Md.Ae</p>
+                                    </div>
+                                </div>
+                                <div class="contact_us_item d-flex">
+                                    <div class="p-2">
+                                        <img
+                                            src="/7md_website/static/src/images/location.svg" />
+                                    </div>
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <p class="fw-bold p-0 m-0">
+                                            7Md Store General Trading Llc Musaffah Abu Dhabi United
+                                            Arab
+                                            Emirates
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+</odoo>
