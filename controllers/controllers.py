@@ -23,3 +23,21 @@ class contact7md(http.Controller):
         return request.render('7md_website.contact')
     
 
+class websitePolicies(http.Controller):
+
+    @http.route('/privacy_policy', auth='public', type='http', website=True)
+    def privacyPolicy7md(self, **kw):
+
+        return request.render('privacy_policy_7md')
+
+    @http.route('/return_policy', auth='public', type='http', website=True)
+    def returnPolicy(self, **kw):
+
+        return request.render('return_policy_7md')
+
+
+    @http.route('/terms_and_conditions', auth='public', type='http', website=True)
+    def termAndCondition(self, **kw):
+        
+        return request.render('terms_and_condition_7md')
+    
