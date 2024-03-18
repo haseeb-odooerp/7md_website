@@ -30,6 +30,8 @@
         'templates/product_test_template.xml',
         'templates/credential_layout.xml',
         'templates/footer.xml',
+        'templates/header_searchbar_custom.xml',
+        'templates/product_details_screen.xml'
         # 'views/views.xml',
         # 'views/templates.xml',
     ],
@@ -60,8 +62,8 @@
             "7md_website/static/src/css/product-details.css",
             "7md_website/static/src/css/shopping-cart.css",
             "7md_website/static/src/css/updated-styles.scss",
-            "7md_website/static/src/js/bootstrap.bundle.min.js",
-            "7md_website/static/src/js/bootstrap.bundle.min.js.map",
+            # "7md_website/static/src/js/bootstrap.bundle.min.js",
+            # "7md_website/static/src/js/bootstrap.bundle.min.js.map",
             
             
         ],

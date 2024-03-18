@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="product_details_custom" name="Product details custom template"
+        inherit_id="website_sale.product">
+
+        <xpath expr="//div[@id=('product_detail_main')]" position="after">
+            <div>
+                Test
+            </div>
+        </xpath>
+
+    </template>
+
+</odoo>
