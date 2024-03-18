@@ -10,13 +10,7 @@ class MdWebsite(http.Controller):
     def index(self, **kw):
         return request.render('7md_website.home')
     
-
-class about7md(http.Controller):
-    @http.route('/about', auth='public', type='http', website=True)
-    def index(self, **kw):
-        return request.render('7md_website.about')
     
-
 class contact7md(http.Controller):
     @http.route('/contact', auth='public', type='http', website=True)
     def index(self, **kw):
@@ -24,6 +18,14 @@ class contact7md(http.Controller):
     
 
 class websitePolicies(http.Controller):
+
+    @http.route('/about', auth='public', type='http', website=True)
+    def about7md(self, **kw):
+        
+        return request.render('7md_website.about')
+
+
+
 
     @http.route('/privacy_policy', auth='public', type='http', website=True)
     def privacyPolicy7md(self, **kw):
