@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="return_policy_7md" name="Return Policy">
+    <template id="7md_website.return_policy_7md" name="Return Policy">
         <t t-call="website.layout">
             <section class="custom-page-wrap clearfix">
                 <div class="container">
