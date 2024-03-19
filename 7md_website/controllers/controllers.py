@@ -10,13 +10,7 @@ class MdWebsite(http.Controller):
     def index(self, **kw):
         return request.render('7md_website.home')
     
-
-class about7md(http.Controller):
-    @http.route('/about', auth='public', type='http', website=True)
-    def index(self, **kw):
-        return request.render('7md_website.about')
     
-
 class contact7md(http.Controller):
     @http.route('/contact', auth='public', type='http', website=True)
     def index(self, **kw):
@@ -25,19 +19,25 @@ class contact7md(http.Controller):
 
 class websitePolicies(http.Controller):
 
-    @http.route('/privacy_policy', auth='public', type='http', website=True)
+    @http.route('/about', auth='public', type='http', website=True)
+    def about7md(self, **kw):
+        
+        return request.render('7md_website.about')
+
+
+    @http.route('/privacy-policy', auth='public', type='http', website=True)
     def privacyPolicy7md(self, **kw):
 
-        return request.render('privacy_policy_7md')
+        return request.render('7md_website.privacy_policy_7md')
 
-    @http.route('/return_policy', auth='public', type='http', website=True)
+    @http.route('/return-policy', auth='public', type='http', website=True)
     def returnPolicy(self, **kw):
 
-        return request.render('return_policy_7md')
+        return request.render('7md_website.return_policy_7md')
 
 
-    @http.route('/terms_and_conditions', auth='public', type='http', website=True)
+    @http.route('/terms-and-conditions', auth='public', type='http', website=True)
     def termAndCondition(self, **kw):
         
-        return request.render('terms_and_condition_7md')
+        return request.render('7md_website.terms_and_condition_7md')
     

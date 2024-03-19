@@ -82,17 +82,17 @@
                                 <div class="collapse navbar-collapse" id="company-links">
                                     <ul class="navbar-nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" href="#"> About us</a>
+                                            <a class="nav-link text-dark" t-attf-href="/about"> About us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" href="#"> Terms &#38;
+                                            <a class="nav-link text-dark" t-attf-href="/terms-and-conditions"> Terms &#38;
                                                 Conditions</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" href="#"> Privacy policy </a>
+                                            <a class="nav-link text-dark" t-attf-href="/privacy-policy"> Privacy policy </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" href="#"> Return policy </a>
+                                            <a class="nav-link text-dark" t-attf-href="/return-policy"> Return policy </a>
                                         </li>
                                     </ul>
                                 </div>

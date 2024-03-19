@@ -2,137 +2,110 @@
 <odoo>
     <template id="7md_website.about" name="7md About">
         <t t-call="website.layout">
+
             <section class="container-fluid bg-white py-2 breadcrumb-section mb-4">
-                <div class="row">
-                    <div class="col-12">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb p-2 mb-0">
-                                <li class="breadcrumb-item text-capitalize">home</li>
-                                <li class="breadcrumb-item active" aria-current="page">
-                                    <a href="#" class="text-decoration-none text-capitalize"
-                                    >About</a>
-                                </li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </section>
-            <section class="container-fluid px-lg-4 main_container">
-                <div class="card mb-4">
-                    <div class="card-title border-bottom p-4 text-center">
-                        <h1 class="custom-title position-relative">About Us</h1>
-                    </div>
-                    <div class="card-body p-4">
-                        <div class="row row-cols-2 align-items-center">
-                            <div class="col-12 col-md-6">
-                                <p class="mb-4 mb-md-0">
-                                    Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida
-                                    et mattis vulputate, tristique u t lectus. Sed et lorem nunc.
-                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                                    posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus
-                                    adipiscing nisl ut dolor dignissim semper. Nulla luctus
-                                    malesuada tincidunt. Class aptent taciti sociosqu ad litora
-                                    torquent per conubia nostra, per inceptos himenaeos. Integer
-                                    enim purus, posuere at ultricies eu, placerat a felis.
-                                    Suspendisse aliquet urna pretium eros convallis interdum.
-                                    Quisque in arcu id dui vulputate mollis eget non arcu. Aenean et
-                                    nulla purus. Mauris vel tellus non nunc mattis lobortis. Nunc
-                                    facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et
-                                    mattis vulputate, tristique ut lectus. Sed et lorem nunc.
-                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                                    posuere cubilia Curae.
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-6 text-center">
-                                <img
-                                    class="img-fluid rounded-3"
-                                    src="/7md_website/static/src/images/placeholder.png"
-                                    alt=""
-                                />
+                <div class="">
+                    <div class="">
+                        <div class="nasa-title clearfix hr-type-none">
+                            <div class="nasa-wrap">
+                                <h3 class="nasa-heading-title">
+                                    <span style="text-decoration: underline;">
+                                        <span class="nasa-title-wrap">ABOUT 7MD STORE :</span>
+                                    </span>
+                                </h3>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-            <section class="container-fluid px-lg-4 main_container py-5">
-                <div class="card shadow-lg w-100">
-                    <div class="card-body">
-                        <div
-                            class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center"
-                        >
-                            <div class="contact_us_item d-flex col py-2">
-                                <div class="p-2">
-                                    <img
-                                        src="/7md_website/static/src/images/noun-faq-2718218.png"
-                                        class="contact_us_item_img"
-                                    />
-                                </div>
-                                <div class="d-flex justify-content-center flex-column">
-                                    <p class="p-0 m-0">Inquiries orders:</p>
-                                    <p class="fw-bold p-0 m-0">+971 54 444 1888</p>
-                                </div>
-                            </div>
-                            <div class="contact_us_item d-flex col py-2">
-                                <div class="p-2">
-                                    <img
-                                        src="/7md_website/static/src/images/noun-customer-service-4516522.png"
-                                        class="contact_us_item_img"
-                                    />
-                                </div>
-                                <div class="d-flex justify-content-center flex-column">
-                                    <p class="p-0 m-0">Customer Services:</p>
-                                    <p class="fw-bold p-0 m-0">+971 50 628 8806</p>
-                                </div>
-                            </div>
-                            <div class="contact_us_item d-flex col py-2">
-                                <div class="p-2">
-                                    <img
-                                        src="/7md_website/static/src/images/noun-support-service-5325669.png"
-                                        class="contact_us_item_img"
-                                    />
-                                </div>
-                                <div class="d-flex justify-content-center flex-column">
-                                    <p class="p-0 m-0">Support Services:</p>
-                                    <p class="fw-bold p-0 m-0">+971 50 388 8087</p>
-                                </div>
-                            </div>
-                            <div class="contact_us_item d-flex col py-2">
-                                <div class="p-2">
-                                    <img
-                                        src="/7md_website/static/src/images/noun-customer-complaint-2670150.png"
-                                        class="contact_us_item_img"
-                                    />
-                                </div>
-                                <div class="d-flex justify-content-center flex-column">
-                                    <p class="p-0 m-0">Suggestions and Complaints:</p>
-                                    <p class="fw-bold p-0 m-0">+971 56 749 2096</p>
-                                </div>
-                            </div>
-                            <div
-                                class="col flex-grow-1 py-2 d-flex flex-column align-items-center align-items-md-start justify-content-center"
-                            >
-                                <div class="contact_us_item d-flex">
-                                    <div class="p-2">
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1584364019132">
+                            <div class="wpb_wrapper">
+                                <p></p>
+                                <p>- 7md Store specializes in all that is new and rare of exclusive
+                                    and electronic special products and daily products at
+                                    competitive prices that we cannot get a competitor for us.</p>
+                                <p></p>
+                                <p>- 7md Store was established by a self-made figure who started
+                                    working through the home and by choosing products that were not
+                                    available in the market and at competitive prices that led to
+                                    opening a mass base for the store everywhere.</p>
+                                <p></p>
+                                <p>- The 7md Store store is considered one of the electronic stores
+                                    specialized in electronic products, home and family products,
+                                    office and others, which are carefully chosen and offered at
+                                    competitive prices to confirm the customers permanent loyalty to
+                                    the store.</p>
+                                <p></p>
+                                <p>- We are always keen on selecting and providing all that is new
+                                    and everything that is exclusive and distinctive through our
+                                    hard work in searching for these products and we offer many
+                                    after-sales services and our team works constantly to update
+                                    products and services and we deliver our products everywhere
+                                    around the world through our partners companies Shipping and
+                                    delivery.</p>
+                                <p></p>
+                                <p>- We are always working to satisfy you and provide everything
+                                    that distinguishes you and serves your daily life, so we make
+                                    our best efforts in that and we hope to be the first supplier in
+                                    this field through quality, price and speed of delivery.</p>
+                                <p></p>
+                                <h3>
+                                    <span style="text-decoration: underline;">Company Profile :</span>
+                                </h3>
+                                <p></p>
+                                <p>
+                                    <span style="text-decoration: underline;">
                                         <img
-                                            src="/7md_website/static/src/images/message.svg" />
-                                    </div>
-                                    <div class="d-flex justify-content-center flex-column">
-                                        <p class="fw-bold p-0 m-0">Info@7Md.Ae</p>
-                                    </div>
-                                </div>
-                                <div class="contact_us_item d-flex">
-                                    <div class="p-2">
+                                            src="/public/storage/media/t6nFVYvYwfvWnrayYbRwWhozVGOuOhuBrs8HQDwt.jpeg"
+                                            alt="" />
+                                    </span>
+                                    <span style="text-decoration: underline;">
                                         <img
-                                            src="/7md_website/static/src/images/location.svg" />
-                                    </div>
-                                    <div class="d-flex justify-content-center flex-column">
-                                        <p class="fw-bold p-0 m-0">
-                                            7Md Store General Trading Llc Musaffah Abu Dhabi United
-                                            Arab
-                                            Emirates
-                                        </p>
-                                    </div>
-                                </div>
+                                            src="/public/storage/media/7lHAUUPfArrodBP8w0TfuTIWuuENUGGRCFAKWNb4.jpeg"
+                                            alt="" />
+                                    </span>
+                                    <span style="text-decoration: underline;">
+                                        <img
+                                            src="/public/storage/media/bvTTpzN7lJSCzua7p74iiOUSdPoncupSCZTyjIZR.jpeg"
+                                            alt="" />
+                                    </span>
+                                    <span style="text-decoration: underline;">
+                                        <img
+                                            src="/public/storage/media/ehbJduiDMzjwaVJfGzakTMnQGIP5dbXwdhILcYNq.jpeg"
+                                            alt="" />
+                                    </span>
+                                    <span style="text-decoration: underline;">
+                                        <img
+                                            src="/public/storage/media/0Zju9XLZV3YLxIEqTVwMe5FDH7l4kz7mAPZxR435.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/VVYOuyzBiVT0BGWry553yJLfEpouKNCwtBK2qOIu.jpeg"
+                                            alt="" width="900" height="900" />
+                                        <img
+                                            src="/public/storage/media/yIIxILGngYEp82KTLCM7guku9cjqAP4sA4DkFZhK.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/Q5XzOpiGjkFAWsh55lGzAko5aTqVfHHCiGIm0Z9A.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/vog2CN4LFcUiICDRC5629CcGOeBxqEzzHbwx3aPS.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/qlwAlq60hHPdDpbCyqIZpZuGv1w2gI4jXlqKRaT9.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/KkT1vS9WdHw3WpTHqWntYJdr9dRg8WNkHQodqdiK.jpeg"
+                                            alt="" />
+                                        <img
+                                            src="/public/storage/media/Xya9obrtLx2zoZ7pWqvoHLaixifSyCjyrzCMbl10.jpg"
+                                            alt="" width="904" height="903" />
+                                    </span>
+                                </p>
+                                <p>
+                                    <span style="text-decoration: underline;">
+                                        <img
+                                            src="/public/storage/media/tqaVUZmashm3XzN0632SxuOhKVu5wHzDdCNRZsjS.jpeg"
+                                            alt="" />
+                                    </span>
+                                </p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

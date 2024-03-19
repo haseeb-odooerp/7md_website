@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="terms_and_condition_7md" name="Terms and Conditions">
+    <template id="7md_website.terms_and_condition_7md" name="Terms and Conditions">
         <t t-call="website.layout">
             <section class="">
                 <div class="container">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="privacy_policy_7md" name="Privacy Policy">
+    <template id="7md_website.privacy_policy_7md" name="Privacy Policy">
         <t t-call="website.layout">
             <section class="container-fluid custom-page-wrap clearfix">
                 <div class="container">
