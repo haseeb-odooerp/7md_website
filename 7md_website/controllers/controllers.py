@@ -25,8 +25,6 @@ class websitePolicies(http.Controller):
         return request.render('7md_website.about')
 
 
-
-
     @http.route('/privacy_policy', auth='public', type='http', website=True)
     def privacyPolicy7md(self, **kw):
 
