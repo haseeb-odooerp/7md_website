@@ -24,7 +24,7 @@
                                     <p class="video_desc_title mt-5">Your Life Made Easy</p>
                                     <a href="javascript:void(0);"
                                         class="btn btn-primary mt-5 btn-lg text-white px-5">VISIT
-                                        OUR SHOPS</a>
+                                        OUR SHOP</a>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +479,7 @@
                                                 class="navbar-nav overflow-hidden justify-content-between w-100">
                                                 <li class="nav-item flex-shrink-0">
                                                     <a href="javascript:void(0);"
-                                                        class="active nav-link">
+                                                        class="nav-link">
                                                         <svg xmlns="http://www.w3.org/2000/svg"
                                                             width="13.68" height="15.5"
                                                             viewBox="0 0 13.68 15.5">

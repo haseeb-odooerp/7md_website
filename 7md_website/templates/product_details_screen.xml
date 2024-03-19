@@ -1,14 +1,324 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
+    <!-- Product detail description -->
     <template id="product_details_custom" name="Product details custom template"
         inherit_id="website_sale.product">
 
-        <xpath expr="//div[@id=('product_detail_main')]" position="after">
-            <div>
-                Test
+        <xpath expr="//div[@id=('product_detail_main')]" position="replace">
+            <div class="row"
+                id="product_detail_main" data-name="Product Page"
+                t-att-data-image_width="website.product_page_image_width"
+                t-att-data-image_layout="website.product_page_image_layout">
+                <t t-set="image_cols" t-value="website._get_product_page_proportions()" />
+                <div
+                    t-attf-class="col-lg-#{image_cols[0]} mt-lg-4 o_wsale_product_images position-relative"
+                    t-if="website.product_page_image_width != 'none'">test <t
+                        t-call="website_sale.shop_product_images" />
+                </div>
+                <div t-attf-class="col-lg-#{image_cols[1]} mt-md-4" id="product_details">
+                    <t t-set="base_url" t-value="product.get_base_url()" />
+                    <h1 itemprop="name" t-field="product.name">Product Name</h1>
+                    <span itemprop="url" style="display:none;"
+                        t-esc="base_url + product.website_url" />
+                    <span itemprop="image" style="display:none;"
+                        t-esc="base_url + website.image_url(product, 'image_1920')" />
+                    <t t-if="is_view_active('website_sale.product_comment')">
+                        <a href="#o_product_page_reviews"
+                            class="o_product_page_reviews_link text-decoration-none">
+                            <t t-call="portal_rating.rating_widget_stars_static">
+                                <t t-set="rating_avg" t-value="product.rating_avg" />
+                                <t t-set="trans_text_plural">%s reviews</t>
+                                <t t-set="trans_text_singular">%s review</t>
+                                <t t-set="rating_count"
+                                    t-value="(trans_text_plural if product.rating_count > 1 else trans_text_singular) % product.rating_count" />
+                            </t>
+                        </a>
+                    </t>
+                    <p t-field="product.description_sale" class="text-muted my-2"
+                        placeholder="A short description that will also appear on documents." />
+                    <form t-if="product._is_add_to_cart_possible()" action="/shop/cart/update"
+                        method="POST">
+                        <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"
+                            t-nocache="The csrf token must always be up to date." />
+                        <div class="js_product js_main_product mb-3">
+                            <div>
+                                <t t-call="website_sale.product_price" />
+                                <small t-if="combination_info['base_unit_price']"
+                                    class="ms-1 text-muted o_base_unit_price_wrapper d-none"
+                                    groups="website_sale.group_show_uom_price">
+                                    <t t-call='website_sale.base_unit_price' />
+                                </small>
+                            </div>
+                            <t t-placeholder="select">
+                                <input type="hidden" class="product_id" name="product_id"
+                                    t-att-value="product_variant.id" />
+                                <input type="hidden" class="product_template_id"
+                                    name="product_template_id" t-att-value="product.id" />
+                                <input t-if="product.public_categ_ids.ids" type="hidden"
+                                    class="product_category_id" name="product_category_id"
+                                    t-att-value="product.public_categ_ids.ids[0]" />
+                                <input t-if="product.product_tag_ids.ids" type="hidden"
+                                    class="product_tag_id" name="product_tag_id"
+                                    t-att-value="product.product_tag_ids.ids[0]" />
+                                <t t-if="combination" t-call="sale.variants">
+                                    <t t-set="ul_class" t-valuef="flex-column" />
+                                    <t t-set="parent_combination" t-value="None" />
+                                </t>
+                                <t t-else="">
+                                    <ul class="d-none js_add_cart_variants mb-0"
+                                        t-att-data-attribute_exclusions="{'exclusions: []'}" />
+                                </t>
+                            </t>
+                            <p t-if="True" class="css_not_available_msg alert alert-warning">This
+                                combination does not exist.</p>
+                            <div id="o_wsale_cta_wrapper"
+                                class="d-flex flex-wrap align-items-center">
+                                <t t-set="hasQuantities" t-value="false" />
+                                <t t-set="hasBuyNow" t-value="false" />
+                                <t t-set="ctaSizeBig" t-value="not hasQuantities or not hasBuyNow" />
+
+                                <div id="add_to_cart_wrap"
+                                    t-attf-class="{{'d-none' if combination_info['prevent_zero_price_sale'] else 'd-inline-flex'}} align-items-center mb-2 me-auto">
+                                    <a data-animation-selector=".o_wsale_product_images"
+                                        role="button" id="add_to_cart"
+                                        t-attf-class="btn btn-primary js_check_product a-submit flex-grow-1 #{'btn-lg' if ctaSizeBig else ''}"
+                                        href="#">
+                                        <i class="fa fa-shopping-cart me-2" />
+                                        <span style="font-weight: bold">ADD TO CART</span>
+                                    </a>
+                                </div>
+                                <div id="product_option_block" class="d-flex flex-wrap w-100" />
+                            </div>
+                            <div id="contact_us_wrapper"
+                                t-attf-class="{{'d-flex' if combination_info['prevent_zero_price_sale'] else 'd-none'}} oe_structure oe_structure_solo #{_div_classes}">
+                                <section class="s_text_block" data-snippet="s_text_block"
+                                    data-name="Text">
+                                    <div class="container">
+                                        <a t-att-href="website.contact_us_button_url"
+                                            class="btn btn-primary btn_cta">Contact Us
+                                        </a>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </form>
+                    <p t-elif="not product.active" class="alert alert-warning">This product is no
+                        longer available.</p>
+                    <p t-else="" class="alert alert-warning">This product has no valid combination.</p>
+                    <div id="product_attributes_simple">
+                        <t t-set="single_value_attributes"
+                            t-value="product.valid_product_template_attribute_line_ids._prepare_single_value_for_display()" />
+                        <table
+                            t-attf-class="table table-sm text-muted {{'' if single_value_attributes else 'd-none'}}">
+                            <t t-foreach="single_value_attributes" t-as="attribute">
+                                <tr>
+                                    <td>
+                                        <span t-field="attribute.name" />: <t
+                                            t-foreach="single_value_attributes[attribute]"
+                                            t-as="ptal">
+                                            <span
+                                                t-field="ptal.product_template_value_ids._only_active().name" />
+                                            <t t-if="not ptal_last">, </t>
+                                        </t>
+                                    </td>
+                                </tr>
+                            </t>
+                        </table>
+                    </div>
+                    <div id="o_product_terms_and_share"
+                        class="d-flex justify-content-between flex-column flex-md-row align-items-md-end mb-3">
+                    </div>
+                </div>
             </div>
         </xpath>
 
     </template>
 
+
+    <!-- Product review and description tabs -->
+    <template id="product_details_review_description"
+        name="Product details custom reviews and description"
+        inherit_id="website_sale.product">
+
+        <xpath expr="//div[@id=('product_detail_main')]" position="after">
+            <section class="container-fluid px-lg-5 main_container">
+                <div class="row py-4">
+                    <div class="col-12">
+                        <div class="tabs product-tabs">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item nav-res" role="presentation">
+                                    <button
+                                        class="nav-link active p-3 px-5"
+                                        id="description-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#description"
+                                        type="button"
+                                        role="tab"
+                                        aria-controls="description"
+                                        aria-selected="true"
+                                    >
+                                        Description
+                                    </button>
+                                </li>
+                                <li class="nav-item nav-res" role="presentation">
+                                    <button
+                                        class="nav-link nav-res p-3 px-5"
+                                        id="reviews-tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#reviews"
+                                        type="button"
+                                        role="tab"
+                                        aria-controls="reviews"
+                                        aria-selected="false"
+                                    >
+                                        Additional information
+                                    </button>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content bg-white p-4" id="myTabContent">
+                                <div
+                                    class="tab-pane fade tab-content show active p-4"
+                                    id="description"
+                                    role="tabpanel"
+                                    aria-labelledby="description-tab"
+                                >
+                                    <table>
+                                        <tr>
+                                            <td colspan="2">Seller assumes all responsibility for
+                                                this listing.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>eBay item number:</td>
+                                            <td>185997734023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last updated:</td>
+                                            <td>Nov 15, 2023 20:06:01 PST</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Item specifics</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Condition</td>
+                                            <td>New: A brand-new, unused, unopened, undamaged item
+                                                in its original packaging</td>
+                                        </tr>
+                                        <!-- Add more rows for each specific -->
+                                        <tr>
+                                            <td>Processor</td>
+                                            <td>Octa Core</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Screen Size</td>
+                                            <td>6.7 in</td>
+                                        </tr>
+                                        <!-- Continue adding rows for the rest of the specifics -->
+                                    </table>
+                                    <table>
+                                        <tr>
+                                            <td colspan="2">Seller assumes all responsibility for
+                                                this listing.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>eBay item number:</td>
+                                            <td>185997734023</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Last updated:</td>
+                                            <td>Nov 15, 2023 20:06:01 PST</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2">Item specifics</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Condition</td>
+                                            <td>New: A brand-new, unused, unopened, undamaged item
+                                                in its original packaging</td>
+                                        </tr>
+                                        <!-- Add more rows for each specific -->
+                                        <tr>
+                                            <td>Processor</td>
+                                            <td>Octa Core</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Screen Size</td>
+                                            <td>6.7 in</td>
+                                        </tr>
+                                        <!-- Continue adding rows for the rest of the specifics -->
+                                    </table>
+                                </div>
+                                <div
+                                    class="tab-pane fade tab-content p-4"
+                                    id="reviews"
+                                    role="tabpanel"
+                                    aria-labelledby="reviews-tab"
+                                >
+                                    <div class="review-widget">
+                                        <h3>Customer Reviews</h3>
+                                        <div class="review">
+                                            <p class="review-title">Excellent Product</p>
+                                            <div class="review-rating">★★★★☆</div>
+                                            <p class="review-text">I recently purchased this product
+                                                and it has exceeded my expectations. Highly
+                                                recommend!</p>
+                                            <p class="review-author">- John Doe</p>
+                                        </div>
+                                        <!-- Add more review divs as needed -->
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+
+    </template>
+
+
+    <!-- Added a class and removed container from product detail layout -->
+
+    <template id="product_details_custom_class" name="Product details container class"
+        inherit_id="website_sale.product">
+
+        <xpath expr="//section[@id=('product_detail')]" position="attributes">
+            <attribute name="t-attf-class">product-detail-container py-4 oe_website_sale
+                #{'discount' if
+                combination_info['has_discounted_price'] else ''}</attribute>
+        </xpath>
+
+    </template>
+
+    <!-- <template id="product_details_custom_slider" name="product detail custom slider"
+        inherit_id="website_sale.shop_product_carousel">
+        <xpath expr="//div[@id=('o-carousel-product')]" position="replace"> salam <div
+                class="o_carousel_product_outer carousel-outer position-relative flex-grow-1">
+                <div class="carousel-inner h-100">
+                    <t t-set="image_classes"
+                        t-value="'d-flex align-items-center justify-content-center h-100'" />
+                    <t t-foreach="product_images" t-as="product_image">
+                        <div
+                            t-attf-class="carousel-item h-100#{' active' if product_image_first else ''}">
+                            <t t-call="website_sale.shop_product_image" />
+                        </div>
+                    </t>
+                </div>
+                <t t-if="len(product_images) > 1">
+                    <a class="carousel-control-prev" href="#o-carousel-product" role="button"
+                        data-bs-slide="prev">
+                        <span class="fa fa-chevron-left fa-2x oe_unmovable" role="img"
+                            aria-label="Previous" title="Previous" />
+                    </a>
+                    <a class="carousel-control-next" href="#o-carousel-product" role="button"
+                        data-bs-slide="next">
+                        <span class="fa fa-chevron-right fa-2x oe_unmovable" role="img"
+                            aria-label="Next" title="Next" />
+                    </a>
+                </t>
+            </div>
+        </xpath>
+    </template> -->
 </odoo>

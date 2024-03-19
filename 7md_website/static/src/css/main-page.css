@@ -30,7 +30,7 @@
     justify-content: start;
     align-items: center;
     padding-left: 5%;
-    background: url("../images/SHAPE@2x.png") no-repeat;
+    background: url("/7md_website/static/src/images/SHAPE@2x.png") no-repeat;
     background-size: cover;
     background-position: center center;
 }

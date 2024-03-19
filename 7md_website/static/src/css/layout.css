@@ -138,6 +138,7 @@ input[type=number]:focus,
 .product-filter-navbar .navbar-nav {
     width: 100%;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
 .product-filter-navbar .navbar-nav li {
@@ -147,15 +148,17 @@ input[type=number]:focus,
 .product-filter-navbar a {
     color: #A9A9A9;
     text-decoration: none;
-    height: 42px;
+    /* height: 42px; */
     line-height: 26px;
+    border-bottom: none;
 }
 
 .product-filter-navbar .nav-link.active,
 .product-filter-navbar .nav-link:hover {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #D9551C1F;
-    border: 1px solid #D9551C;
+    /* box-shadow: 0px 3px 6px #D9551C1F; */
+    box-shadow: 0px 0px 0px 1px #d9551ccf;
+    /* border: 1px solid #D9551C; */
     border-radius: 8px;
     opacity: 1;
     color: #D9551C;
@@ -165,7 +168,7 @@ input[type=number]:focus,
 .product-filter-navbar .nav-link.active path,
 .product-filter-navbar .nav-link:hover path {
     fill: #D9551C;
-stroke: #D9551C;
+    stroke: #D9551C;
 }
 
 .ratings {
@@ -206,10 +209,10 @@ stroke: #D9551C;
     top: 8px;
     width: 50px;
     height: 50px;
-    background: url("../images/Polygon 2@2x.png") center center no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
+    background: url("/7md_website/static/src/images/Polygon 2@2x.png") center center no-repeat;
+background-size: contain;
+display: flex;
+justify-content: center;
     align-items: center;
     color: #FFFFFF;
     font-weight: bold;

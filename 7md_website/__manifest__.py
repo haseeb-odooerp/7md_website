@@ -62,6 +62,7 @@
             "7md_website/static/src/css/product-details.css",
             "7md_website/static/src/css/shopping-cart.css",
             "7md_website/static/src/css/updated-styles.scss",
+            "7md_website/static/src/css/product-details-custom.scss",
             # "7md_website/static/src/js/bootstrap.bundle.min.js",
             # "7md_website/static/src/js/bootstrap.bundle.min.js.map",
             
