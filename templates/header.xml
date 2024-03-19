@@ -54,22 +54,33 @@
                                                         <t t-set="display_extra_link" t-valuef="true"/>
                                                         <t t-set="display_detail" t-valuef="true"/>
                                                     </t>
-                                                    <select name="category"
-                                                            class="form-control form-select">
+                                                    <!--                                                    <select name="category"-->
+                                                    <!--                                                            class="form-control form-select">-->
+                                                    <!--                                                        <option value="">All Categories</option>-->
+                                                    <!--                                                        <option value="mobile-phones">Mobile Phones</option>-->
+                                                    <!--                                                        <option value="mobile-accessories">-->
+                                                    <!--                                                            Mobile Accessories-->
+                                                    <!--                                                        </option>-->
+                                                    <!--                                                        <option value="cases-leather">-->
+                                                    <!--                                                            Cases Phone Protection-->
+                                                    <!--                                                        </option>-->
+                                                    <!--                                                        <option value="chargers-cables-lv0yWIak">-->
+                                                    <!--                                                            Chargers Cables-->
+                                                    <!--                                                        </option>-->
+                                                    <!--                                                        <option value="usb-car-chargers">-->
+                                                    <!--                                                            USB Car Chargers-->
+                                                    <!--                                                        </option>-->
+                                                    <!--                                                    </select>-->
+                                                    <select name="category" class="form-control form-select">
                                                         <option value="">All Categories</option>
-                                                        <option value="mobile-phones">Mobile Phones</option>
-                                                        <option value="mobile-accessories">
-                                                            Mobile Accessories
-                                                        </option>
-                                                        <option value="cases-leather">
-                                                            Cases Phone Protection
-                                                        </option>
-                                                        <option value="chargers-cables-lv0yWIak">
-                                                            Chargers Cables
-                                                        </option>
-                                                        <option value="usb-car-chargers">
-                                                            USB Car Chargers
-                                                        </option>
+                                                        <!-- Query product categories from the database -->
+                                                        <t t-foreach="env['product.public.category'].search([])"
+                                                           t-as="category">
+                                                            <option t-att-value="category.id"
+                                                                    t-attf-class="'sub-cat-' ~ category.id">
+                                                                <t t-esc="category.name"/>
+                                                            </option>
+                                                        </t>
                                                     </select>
                                                     <button type="submit"
                                                             class="btn btn-primary px-4">
