@@ -8,6 +8,14 @@ from odoo import http
 class MdWebsite(http.Controller):
     @http.route('/', auth='public', type='http', website=True)
     def index(self, **kw):
+        category = kw.get('category')
+        search = kw.get('search')
+        if category and not search:
+            return request.render('7md_website.home')
+        if category and search:
+            return request.redirect('/shop?category=%s&search=%s' % (category, search))
+        if search and not category:
+            return request.redirect('/shop?search=%s' % search)
         return request.render('7md_website.home')
     
     
