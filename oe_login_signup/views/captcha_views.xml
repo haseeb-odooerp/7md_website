@@ -28,22 +28,6 @@
                 <input class="form-control d-none" data-recaptcha="true"/>
                 <div class="help-block with-errors" id="err" style='color: red' required="required"></div>
             </div>
-            <script>
-                $(".oe_signup_form").submit(function(event) {
-
-                var recaptcha = $("#g-recaptcha-response").val();
-                if (recaptcha === "") {
-                event.preventDefault();
-                document.getElementById('err').innerHTML="Please check Captcha";
-                var $btn = $form.find('.oe_login_buttons > button[type="submit"]');
-                $btn.attr('enabled', 'enabled');
-                }
-                else{
-                return true;
-                }
-                });
-
-            </script>
         </xpath>>
     </template>
 </odoo>
