@@ -17,6 +17,7 @@
     'assets': {
         'web.assets_frontend': [
             "oe_login_signup/static/src/js/captcha.js",
+            "oe_login_signup/static/src/js/autofill.js",
             ],
     },
     'installable': True,
