@@ -14,9 +14,18 @@
                             loading="lazy" t-att-src="data['image_512']"
                             t-att-alt="record.display_name" />
                     </div>
+
                 </a>
                 <div
                     class="o_carousel_product_card_body d-flex flex-wrap flex-column justify-content-between h-100 p-3 card-body p-lg-4 text-center">
+                    <div
+                        class="small-ratings justify-content-center mb-4">
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star rating-color"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
                     <h5 class="h5 card-title" t-field="record.display_name" />
                     <div>
                         <t t-if="is_view_active('website_sale.product_comment')"
@@ -29,7 +38,7 @@
                                 <t
                                     t-call="website_sale.price_dynamic_filter_template_product_product" />
                             </span>
-                            <!-- <span class="price-old">AED600</span> -->
+                            <span class="price-old">AED600</span>
                         </div>
                         <div class="o_dynamic_snippet_btn_wrapper mt-2"
                             t-if="record._website_show_quick_add()">
