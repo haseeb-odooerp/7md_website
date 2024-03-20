@@ -116,7 +116,9 @@
                                             <!--                                                    </ul>-->
                                             <!--                                                </div>-->
                                             <!--                                            </div>-->
-                                            <t t-call="website_sale.pricelist_list">
+                                            <!-- <t t-call="website_sale.pricelist_list">
+                                            </t> -->
+                                            <t t-call="7md_website.pricelist_custom">
                                             </t>
                                             <div
                                                 class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
