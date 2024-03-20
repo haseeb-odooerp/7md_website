@@ -90,30 +90,34 @@
                                     <div class="col-4">
                                         <div
                                             class="d-flex pt-2 pt-md-0 ustify-content-start align-items-center">
-                                            <div
-                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
-                                                <div class="dropdown">
-                                                    <button
-                                                        class="btn btn-sm bg-transparent text-white dropdown-toggle"
-                                                        type="button"
-                                                        data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        AED
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="javascript:void(0);">AED
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item"
-                                                                href="javascript:void(0);">USD
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            <!--                                            <div-->
+                                            <!--                                                class="px-md-2 flex-md-grow-0 d-flex
+                                            justify-content-center border-end border-white">-->
+                                            <!--                                                <div class="dropdown">-->
+                                            <!--                                                    <button-->
+                                            <!--                                                        class="btn btn-sm bg-transparent text-white
+                                            dropdown-toggle"-->
+                                            <!--                                                        type="button"-->
+                                            <!--                                                        data-bs-toggle="dropdown"-->
+                                            <!--                                                        aria-expanded="false">-->
+                                            <!--                                                        AED-->
+                                            <!--                                                    </button>-->
+                                            <!--                                                    <ul class="dropdown-menu">-->
+                                            <!--                                                        <li>-->
+                                            <!--                                                            <a class="dropdown-item"-->
+                                            <!--                                                                href="javascript:void(0);">AED-->
+                                            <!--                                                            </a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                        <li>-->
+                                            <!--                                                            <a class="dropdown-item"-->
+                                            <!--                                                                href="javascript:void(0);">USD-->
+                                            <!--                                                            </a>-->
+                                            <!--                                                        </li>-->
+                                            <!--                                                    </ul>-->
+                                            <!--                                                </div>-->
+                                            <!--                                            </div>-->
+                                            <t t-call="website_sale.pricelist_list">
+                                            </t>
                                             <div
                                                 class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
                                                 <div class="dropdown">
@@ -228,37 +232,42 @@
                                 <ul class="navbar-nav text-white">
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" aria-current="page"
-                                            href="javascript:void(0);">Electronics
+                                            href="javascript:void(0);">NEW ARRIVALS
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
-                                        <a class="nav-link text-white" href="javascript:void(0);">Health
-                                            Personal Care
+                                        <a class="nav-link text-white" href="javascript:void(0);">RAMADAN
+                                            SPECIAL
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
-                                        <a class="nav-link text-white" href="javascript:void(0);">Home
-                                            Improvements
+                                        <a class="nav-link text-white" href="javascript:void(0);">7MD
+                                            PRODUCTS
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
                                         <a class="nav-link text-white" href="javascript:void(0);">
-                                            Fashion
+                                            ALL PRODUCTS
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
-                                        <a class="nav-link text-white" href="javascript:void(0);">Mobile
-                                            Tablets
+                                        <a class="nav-link text-white" href="javascript:void(0);">
+                                            OFFER DEALS
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
-                                        <a class="nav-link text-white" href="javascript:void(0);">Outdoor
-                                            Fitness
+                                        <a class="nav-link text-white" href="javascript:void(0);">
+                                            BRANDS
                                         </a>
                                     </li>
                                     <li class="nav-item flex-shrink-0">
-                                        <a class="nav-link text-white" href="javascript:void(0);">Smart
-                                            Watches Band
+                                        <a class="nav-link text-white" href="javascript:void(0);">
+                                            DOWNLOAD APP
+                                        </a>
+                                    </li>
+                                    <li class="nav-item flex-shrink-0">
+                                        <a class="nav-link text-white" href="javascript:void(0);">
+                                            MEMBERSHIP
                                         </a>
                                     </li>
                                 </ul>
@@ -599,49 +608,45 @@
                             <ul class="list-group product-cat">
                                 <li class="list-group-item">
                                     <a class="active">
-                                        <span class="nav_selected_button_text">Home Appliances</span>
+                                        <span class="nav_selected_button_text">NEW ARRIVALS</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Electronics</span>
+                                        <span class="nav_button_text">RAMADAN SPECIAL</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Fashion</span>
+                                        <span class="nav_button_text">7MD PRODUCTS</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Health &amp; personal care</span>
+                                        <span class="nav_button_text">ALL PRODUCTS</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Projectors</span>
+                                        <span class="nav_button_text">OFFER DEALS</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Kids</span>
+                                        <span class="nav_button_text">BRANDS</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Cell Phones</span>
+                                        <span class="nav_button_text">DOWNLOAD APP</span>
                                     </a>
                                 </li>
                                 <li class="list-group-item">
                                     <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Sports</span>
+                                        <span class="nav_button_text">MEMBERSHIP</span>
                                     </a>
                                 </li>
-                                <li class="list-group-item">
-                                    <a href="javascript:void(0);">
-                                        <span class="nav_button_text">Game consoles</span>
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>
