@@ -203,24 +203,25 @@
                                                     src="/7md_website/static/src/images/favourite.png"
                                                     width="36" height="36" />
                                             </a>
-                                            <div class="dropdown d-inline-block">
-                                                <button
-                                                    class="btn btn-sm bg-transparent text-white cart-with-price-header"
-                                                    type="button" data-bs-toggle="offcanvas"
-                                                    data-bs-target="#shopping-cart-offcanvas"
-                                                    aria-controls="shopping-cart-offcanvas">
-                                                    <span class="icon position-relative">
-                                                        <img
-                                                            src="/7md_website/static/src/images/CART.png"
-                                                            width="36" height="36" />
-                                                        <span class="badge_price bg-success">2</span>
-                                                    </span>
-                                                    <span class="arrow_price d-none d-xl-inline">
-                                                        2000AED
-                                                    </span>
-                                                </button>
-                                                <div class="dropdown-menu cart-menu p-3"></div>
-                                            </div>
+<!--                                            <div class="dropdown d-inline-block">-->
+<!--                                                <button-->
+<!--                                                    class="btn btn-sm bg-transparent text-white cart-with-price-header"-->
+<!--                                                    type="button" data-bs-toggle="offcanvas"-->
+<!--                                                    data-bs-target="#shopping-cart-offcanvas"-->
+<!--                                                    aria-controls="shopping-cart-offcanvas">-->
+<!--                                                    <span class="icon position-relative">-->
+<!--                                                        <img-->
+<!--                                                            src="/7md_website/static/src/images/CART.png"-->
+<!--                                                            width="36" height="36" />-->
+<!--                                                        <span class="badge_price bg-success">2</span>-->
+<!--                                                    </span>-->
+<!--                                                    <span class="arrow_price d-none d-xl-inline">-->
+<!--                                                        2000AED-->
+<!--                                                    </span>-->
+<!--                                                </button>-->
+<!--                                                <div class="dropdown-menu cart-menu p-3"></div>-->
+<!--                                            </div>-->
+                                            <t t-call="website_sale.header_cart_link"/>
                                         </div>
                                     </div>
                                 </div>
