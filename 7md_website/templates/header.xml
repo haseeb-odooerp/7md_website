@@ -9,7 +9,7 @@
                             class="col-12 d-flex col-md-12 col-lg-2 flex-row-reverse flex-lg-row justify-content-between align-items-center">
                             <a
                                 class="flex-grow-1 flex-lg-grow-0 align-self-md-start text-center d-none d-lg-block"
-                                href="javascript:void(0);">
+                                href="/">
                                 <img src="/7md_website/static/src/images/7md-logo-322@2x.png"
                                     alt="Logo" width="118"
                                     height="68"
