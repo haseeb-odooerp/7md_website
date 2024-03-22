@@ -468,33 +468,30 @@
 
     </template>
 
-    <!-- <template id="product_details_custom_slider" name="product detail custom slider"
-        inherit_id="website_sale.shop_product_carousel">
-        <xpath expr="//div[@id=('o-carousel-product')]" position="replace"> salam <div
-                class="o_carousel_product_outer carousel-outer position-relative flex-grow-1">
-                <div class="carousel-inner h-100">
-                    <t t-set="image_classes"
-                        t-value="'d-flex align-items-center justify-content-center h-100'" />
-                    <t t-foreach="product_images" t-as="product_image">
-                        <div
-                            t-attf-class="carousel-item h-100#{' active' if product_image_first else ''}">
-                            <t t-call="website_sale.shop_product_image" />
-                        </div>
-                    </t>
-                </div>
-                <t t-if="len(product_images) > 1">
-                    <a class="carousel-control-prev" href="#o-carousel-product" role="button"
-                        data-bs-slide="prev">
-                        <span class="fa fa-chevron-left fa-2x oe_unmovable" role="img"
-                            aria-label="Previous" title="Previous" />
-                    </a>
-                    <a class="carousel-control-next" href="#o-carousel-product" role="button"
-                        data-bs-slide="next">
-                        <span class="fa fa-chevron-right fa-2x oe_unmovable" role="img"
-                            aria-label="Next" title="Next" />
-                    </a>
-                </t>
+
+    <!-- For Product Carousel Indicators -->
+    <!-- <template id="carousel_product_indicators_bottom"
+        inherit_id="website_sale.shop_product_carousel" name="Carousel Product Indicators Bottom">
+        <xpath expr="//div[hasclass('o_carousel_product_outer')]" position="after">
+            <div t-ignore="True"
+                t-attf-class="o_carousel_product_indicators {{indicators_div_class}}">
+                <ol t-if="len(product_images) > 1"
+                    t-attf-class="carousel-indicators {{indicators_list_class}} position-static pt-2 pt-lg-0 mx-auto
+    my-0 text-start justify-content-center">
+                    <li t-foreach="product_images" t-as="product_image"
+                        t-attf-class="align-top position-relative {{'active' if product_image_first else ''}}"
+                        data-bs-target="#o-carousel-product"
+                        t-att-data-bs-slide-to="str(product_image_index)">
+                        <div t-field="product_image.image_128"
+                            t-options='{"widget": "image", "qweb_img_responsive": False, "class": "o_image_64_cover",
+    "alt-field": "name"}' />
+                        <i
+                            t-if="product_image._name == 'product.image' and product_image.embed_code"
+                            class="fa fa-2x fa-play-circle o_product_video_thumb bg-black-50 text-center" />
+                    </li>
+                </ol>
             </div>
         </xpath>
     </template> -->
+
 </odoo>
