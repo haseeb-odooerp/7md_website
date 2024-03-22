@@ -698,3 +698,55 @@ header nav.navbar {
 #search_icon {
     filter: invert(1);
 }
+
+.custom-login-providers-outer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px !important;
+    .provider-custom-inner {
+        width: 48px;
+        height: 48px;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        // border-radius: 50%;
+        i {
+            display: inline;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 12px 14px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            color: white;
+        }
+        .fa-facebook-square {
+            background-color: #3a559f;
+            transition: 0.4s ease all;
+            &:hover {
+                background-color: #2a448b;
+            }
+        }
+        .fa-google {
+            background-color: #d94936;
+            transition: 0.4s ease all;
+            &:hover {
+                background-color: #af3a2b;
+            }
+        }
+    }
+}
+
+.header-menu {
+    .navbar-expand {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
