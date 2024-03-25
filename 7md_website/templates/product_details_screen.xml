@@ -13,7 +13,8 @@
                 <t t-set="image_cols" t-value="website._get_product_page_proportions()" />
                 <div
                     t-attf-class="col-lg-#{image_cols[0]} mt-lg-4 o_wsale_product_images position-relative"
-                    t-if="website.product_page_image_width != 'none'">test <t
+                    t-if="website.product_page_image_width != 'none'">
+                    <t
                         t-call="website_sale.shop_product_images" />
                 </div>
                 <div t-attf-class="col-lg-#{image_cols[1]} mt-md-4" id="product_details">
@@ -469,29 +470,17 @@
     </template>
 
 
-    <!-- For Product Carousel Indicators -->
-    <!-- <template id="carousel_product_indicators_bottom"
-        inherit_id="website_sale.shop_product_carousel" name="Carousel Product Indicators Bottom">
-        <xpath expr="//div[hasclass('o_carousel_product_outer')]" position="after">
-            <div t-ignore="True"
-                t-attf-class="o_carousel_product_indicators {{indicators_div_class}}">
-                <ol t-if="len(product_images) > 1"
-                    t-attf-class="carousel-indicators {{indicators_list_class}} position-static pt-2 pt-lg-0 mx-auto
-    my-0 text-start justify-content-center">
-                    <li t-foreach="product_images" t-as="product_image"
-                        t-attf-class="align-top position-relative {{'active' if product_image_first else ''}}"
-                        data-bs-target="#o-carousel-product"
-                        t-att-data-bs-slide-to="str(product_image_index)">
-                        <div t-field="product_image.image_128"
-                            t-options='{"widget": "image", "qweb_img_responsive": False, "class": "o_image_64_cover",
-    "alt-field": "name"}' />
-                        <i
-                            t-if="product_image._name == 'product.image' and product_image.embed_code"
-                            class="fa fa-2x fa-play-circle o_product_video_thumb bg-black-50 text-center" />
-                    </li>
-                </ol>
-            </div>
+    <!-- Added a class in product carousel layout -->
+
+    <template id="product_details_carousel_custom_class" name="Product details carousel class"
+        inherit_id="website_sale.shop_product_carousel">
+
+        <xpath expr="//div[@id=('o-carousel-product')]" position="attributes">
+            <attribute name="class">carousel slide position-sticky mb-3 overflow-hidden
+                custom-product-detail-carousel</attribute>
         </xpath>
-    </template> -->
+
+    </template>
+
 
 </odoo>

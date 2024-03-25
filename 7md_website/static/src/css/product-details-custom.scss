@@ -94,3 +94,23 @@
         }
     }
 }
+
+.custom-product-detail-carousel {
+    display: flex;
+    flex-direction: row-reverse;
+    .o_carousel_product_indicators {
+        max-height: fit-content;
+        ol.carousel-indicators {
+            flex-direction: column;
+            gap: 16px;
+            li {
+                &:not(:first-child) {
+                    margin-left: 0px !important;
+                }
+            }
+        }
+    }
+    .o_carousel_product_outer {
+        background-color: white;
+    }
+}
