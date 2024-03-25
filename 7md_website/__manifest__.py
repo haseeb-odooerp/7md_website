@@ -38,6 +38,9 @@
         'templates/product_details_screen.xml',
         'templates/pricelist_custom.xml',
         'templates/cart_custom_header.xml'
+        'templates/cart_custom_header.xml',
+        'templates/cart_customized_screen.xml'
+        # 'views/views.xml',
         # 'views/templates.xml',
     ],
     # only loaded in demonstration mode
@@ -68,6 +71,7 @@
             "7md_website/static/src/css/shopping-cart.css",
             "7md_website/static/src/css/updated-styles.scss",
             "7md_website/static/src/css/product-details-custom.scss",
+            "7md_website/static/src/css/cart_custom.scss",
             # "7md_website/static/src/js/bootstrap.bundle.min.js",
             # "7md_website/static/src/js/bootstrap.bundle.min.js.map",
             

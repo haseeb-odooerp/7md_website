@@ -14,7 +14,8 @@
                 <div
                     t-attf-class="col-lg-#{image_cols[0]} mt-lg-4 o_wsale_product_images position-relative"
                     t-if="website.product_page_image_width != 'none'"><t
-                        t-call="website_sale.shop_product_images" />
+                    t-if="website.product_page_image_width != 'none'"/>
+                    <t t-call="website_sale.shop_product_images" />
                 </div>
                 <div t-attf-class="col-lg-#{image_cols[1]} mt-md-4" id="product_details">
                     <div class="card product-details-card bg-transparent shadow-none">
@@ -468,33 +469,18 @@
 
     </template>
 
-    <!-- <template id="product_details_custom_slider" name="product detail custom slider"
+
+    <!-- Added a class in product carousel layout -->
+
+    <template id="product_details_carousel_custom_class" name="Product details carousel class"
         inherit_id="website_sale.shop_product_carousel">
-        <xpath expr="//div[@id=('o-carousel-product')]" position="replace"> salam <div
-                class="o_carousel_product_outer carousel-outer position-relative flex-grow-1">
-                <div class="carousel-inner h-100">
-                    <t t-set="image_classes"
-                        t-value="'d-flex align-items-center justify-content-center h-100'" />
-                    <t t-foreach="product_images" t-as="product_image">
-                        <div
-                            t-attf-class="carousel-item h-100#{' active' if product_image_first else ''}">
-                            <t t-call="website_sale.shop_product_image" />
-                        </div>
-                    </t>
-                </div>
-                <t t-if="len(product_images) > 1">
-                    <a class="carousel-control-prev" href="#o-carousel-product" role="button"
-                        data-bs-slide="prev">
-                        <span class="fa fa-chevron-left fa-2x oe_unmovable" role="img"
-                            aria-label="Previous" title="Previous" />
-                    </a>
-                    <a class="carousel-control-next" href="#o-carousel-product" role="button"
-                        data-bs-slide="next">
-                        <span class="fa fa-chevron-right fa-2x oe_unmovable" role="img"
-                            aria-label="Next" title="Next" />
-                    </a>
-                </t>
-            </div>
+
+        <xpath expr="//div[@id=('o-carousel-product')]" position="attributes">
+            <attribute name="class">carousel slide position-sticky mb-3 overflow-hidden
+                custom-product-detail-carousel</attribute>
         </xpath>
-    </template> -->
+
+    </template>
+
+
 </odoo>

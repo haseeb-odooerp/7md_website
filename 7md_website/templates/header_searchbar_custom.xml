@@ -21,7 +21,7 @@
                     </t>
                 </select>
                 <button type="submit"
-                    t-att-class="'bg-primary btn oe_search_button %s' % (_submit_classes or 'btn-primary')"
+                    t-att-class="'px-4 bg-primary btn oe_search_button %s' % (_submit_classes or 'btn-primary')"
                     aria-label="Search" title="Search">
                     <i class="oi oi-search fa fa-search" id="search_icon" />
                     <span t-if="search" class="oe_search_found">
