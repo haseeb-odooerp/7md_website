@@ -10,13 +10,20 @@ class MdWebsite(http.Controller):
     def index(self, **kw):
         category = kw.get('category')
         search = kw.get('search')
+        # search for configurations
+        configuration = request.env['home.slider.config'].search([('active', '=', True)])
+        values = {}
+        if configuration:
+            values["best_selling_products"] = configuration.best_selling_ids
+            values["new_offer_products"] = configuration.new_offer_ids
+
         if category and not search:
-            return request.render('7md_website.home')
+            return request.render('7md_website.home', values)
         if category and search:
             return request.redirect('/shop?category=%s&search=%s' % (category, search))
         if search and not category:
             return request.redirect('/shop?search=%s' % search)
-        return request.render('7md_website.home')
+        return request.render('7md_website.home', values)
     
     
 class contact7md(http.Controller):

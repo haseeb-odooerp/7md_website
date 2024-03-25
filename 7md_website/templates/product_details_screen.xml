@@ -13,7 +13,7 @@
                 <t t-set="image_cols" t-value="website._get_product_page_proportions()" />
                 <div
                     t-attf-class="col-lg-#{image_cols[0]} mt-lg-4 o_wsale_product_images position-relative"
-                    t-if="website.product_page_image_width != 'none'">test <t
+                    t-if="website.product_page_image_width != 'none'"><t
                         t-call="website_sale.shop_product_images" />
                 </div>
                 <div t-attf-class="col-lg-#{image_cols[1]} mt-md-4" id="product_details">

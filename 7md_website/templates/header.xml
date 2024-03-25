@@ -120,34 +120,35 @@
                                             </t> -->
                                             <t t-call="7md_website.pricelist_custom">
                                             </t>
-                                            <div
-                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">
-                                                <div class="dropdown">
-                                                    <button
-                                                        class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle"
-                                                        type="button" id="languageDropdown"
-                                                        data-bs-toggle="dropdown"
-                                                        aria-haspopup="true" aria-expanded="false">
-                                                        <t
-                                                            t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]" />
-                                                    </button>
-                                                    <div class="dropdown-menu"
-                                                        aria-labelledby="languageDropdown">
-                                                        <a class="dropdown-item"
-                                                            t-att-href="'/website/lang/ar'">العربية
-                                                        </a>
-                                                        <a class="dropdown-item"
-                                                            t-att-href="'/website/lang/en'">English
-                                                        </a>
-                                                        <!-- Add more languages as needed -->
-                                                    </div>
-                                                </div>
-                                                <t
-                                                    t-call="website.placeholder_header_language_selector">
-                                                    <t t-set="_div_classes"
-                                                        t-valuef="my-auto ms-lg-2" />
-                                                </t>
-                                            </div>
+<!--                                            <div-->
+<!--                                                class="px-md-2 flex-md-grow-0 d-flex justify-content-center border-end border-white">-->
+<!--                                                <div class="dropdown">-->
+<!--                                                    <button-->
+<!--                                                        class="btn btn-sm bg-transparent text-white text-decoration-none dropdown-toggle"-->
+<!--                                                        type="button" id="languageDropdown"-->
+<!--                                                        data-bs-toggle="dropdown"-->
+<!--                                                        aria-haspopup="true" aria-expanded="false">-->
+<!--                                                        <t-->
+<!--                                                            t-esc="request.httprequest.headers.get('Accept-Language', 'en_US').split(',')[0]" />-->
+<!--                                                    </button>-->
+<!--                                                    <div class="dropdown-menu"-->
+<!--                                                        aria-labelledby="languageDropdown">-->
+<!--                                                        <a class="dropdown-item"-->
+<!--                                                            t-att-href="'/website/lang/ar'">العربية-->
+<!--                                                        </a>-->
+<!--                                                        <a class="dropdown-item"-->
+<!--                                                            t-att-href="'/website/lang/en'">English-->
+<!--                                                        </a>-->
+<!--                                                        &lt;!&ndash; Add more languages as needed &ndash;&gt;-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                                <t-->
+<!--                                                    t-call="website.placeholder_header_language_selector">-->
+<!--                                                    <t t-set="_div_classes"-->
+<!--                                                        t-valuef="my-auto ms-lg-2" />-->
+<!--                                                </t>-->
+<!--                                            </div>-->
+                                            <t t-call="website.language_selector" />
 
 
                                         </div>

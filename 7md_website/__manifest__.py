@@ -22,7 +22,8 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'views/views.xml',
         'templates/header.xml',
         'templates/index.xml',
         'templates/about.xml',
@@ -37,7 +38,6 @@
         'templates/product_details_screen.xml',
         'templates/pricelist_custom.xml',
         'templates/cart_custom_header.xml'
-        # 'views/views.xml',
         # 'views/templates.xml',
     ],
     # only loaded in demonstration mode

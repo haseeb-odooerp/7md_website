@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_7md_website_7md_website,7md_website.7md_website,model_7md_website_7md_website,base.group_user,1,1,1,1
+access_home_slider_config,home.slider.config,model_home_slider_config,base.group_user,1,1,1,1
