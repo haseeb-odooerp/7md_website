@@ -177,4 +177,65 @@
         </xpath>
     </template>
 
+    <template id="progress_wizard_custom" name="progress wizard custom"
+        inherit_id="website_sale.wizard_checkout">
+        <xpath expr="//div[hasclass('progress-wizard')]" position="replace">
+            <div class="progress-wizard">
+                <a class="no-decoration" t-att-href="step&gt;=10 and '/shop/cart' or '#'">
+                    <div id="wizard-step10"
+                        t-att-class="'progress-wizard-step %s' % (step == 10 and 'active' or step&gt;10 and 'complete' or 'disabled')">
+                        <!-- <div class="progress-wizard-bar d-none d-md-block" /> -->
+                        <span
+                            class="progress-wizard-dot d-none d-md-inline-block progress-wizard-dot-custom"></span>
+                        <div class="progress-outer-div">
+                            <div class="image-div">
+                                <img
+                                    src="/7md_website/static/src/images/shopping-cart.png" />
+                            </div>
+                            <div class="text-outer">
+                                <div class="first-text">FIRST STEP </div>
+                                <div class="second-text"> SHOPPING CART </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="no-decoration" t-att-href="step&gt;=20 and '/shop/checkout' or '#'">
+                    <div id="wizard-step20"
+                        t-att-class="'progress-wizard-step %s' % (step == 20 and 'active' or step&gt;20 and 'complete' or 'disabled')">
+                        <!-- <div class="progress-wizard-bar d-none d-md-block" /> -->
+                        <span
+                            class="progress-wizard-dot d-none d-md-inline-block progress-wizard-dot-custom"></span>
+                        <div class="progress-outer-div">
+                            <div class="image-div">
+                                <img
+                                    src="/7md_website/static/src/images/checkout.png" />
+                            </div>
+                            <div class="text-outer">
+                                <div class="first-text">SECOND STEP </div>
+                                <div class="second-text"> ADDRESS </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="no-decoration" t-att-href="step&gt;=40 and '/shop/payment' or '#'">
+                    <div id="wizard-step40"
+                        t-att-class="'progress-wizard-step %s' % (step == 40 and 'active' or step&gt;40 and 'complete' or 'disabled')">
+                        <!-- <div class="progress-wizard-bar d-none d-md-block" /> -->
+                        <span
+                            class="progress-wizard-dot d-none d-md-inline-block progress-wizard-dot-custom"></span>
+                        <div class="progress-outer-div">
+                            <div class="image-div third-step">
+                                <img
+                                    src="/7md_website/static/src/images/confirmation.png" />
+                            </div>
+                            <div class="text-outer">
+                                <div class="first-text">THIRD STEP </div>
+                                <div class="second-text"> CONFIRM ORDER </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </xpath>
+    </template>
 </odoo>
