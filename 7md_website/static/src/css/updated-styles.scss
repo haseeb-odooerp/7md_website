@@ -750,3 +750,32 @@ header nav.navbar {
         }
     }
 }
+
+.custom_cart_item_table {
+    .td-product_name {
+        font-size: 14px;
+        div {
+            margin-bottom: 8px;
+        }
+    }
+    .td-price {
+        font-size: 14px;
+    }
+    .td-qty {
+        min-width: 130px;
+    }
+    .css_quantity {
+        .js_add_cart_json {
+            line-height: 28px;
+            i {
+                font-size: 12px;
+            }
+            i.fa-plus {
+                font-size: 20px;
+            }
+        }
+    }
+    .td-action {
+        padding-right: 10px;
+    }
+}
