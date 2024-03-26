@@ -1,60 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-  <data>
-    <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="7md_website.list">
-      <field name="name">7md_website list</field>
-      <field name="model">7md_website.7md_website</field>
-      <field name="arch" type="xml">
-        <tree>
-          <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
-        </tree>
-      </field>
+    <record id="view_home_slider_config_form" model="ir.ui.view">
+        <field name="name">home.slider.config.form</field>
+        <field name="model">home.slider.config</field>
+        <field name="arch" type="xml">
+            <form string="Home Slider Configuration">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="best_selling_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                        </group>
+                        <group>
+                            <field name="active" widget="boolean_toggle"/>
+                            <field name="new_offer_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                <field name="message_follower_ids"/>
+                <field name="activity_ids"/>
+                <field name="message_ids"/>
+            </div>
+            </form>
+        </field>
     </record>
--->
-
-    <!-- actions opening views on models -->
-<!--
-    <record model="ir.actions.act_window" id="7md_website.action_window">
-      <field name="name">7md_website window</field>
-      <field name="res_model">7md_website.7md_website</field>
-      <field name="view_mode">tree,form</field>
+    <record id="view_home_slider_config_tree" model="ir.ui.view">
+        <field name="name">home.slider.config.tree</field>
+        <field name="model">home.slider.config</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="best_selling_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                <field name="new_offer_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                <field name="active" widget="boolean_toggle"/>
+            </tree>
+        </field>
     </record>
--->
 
-    <!-- server action to the one above -->
-<!--
-    <record model="ir.actions.server" id="7md_website.action_server">
-      <field name="name">7md_website server</field>
-      <field name="model_id" ref="model_7md_website_7md_website"/>
-      <field name="state">code</field>
-      <field name="code">
-        action = {
-          "type": "ir.actions.act_window",
-          "view_mode": "tree,form",
-          "res_model": model._name,
-        }
-      </field>
+    <!-- Optionally, add this to include the form in the menu -->
+    <record id="home_slider_config_action" model="ir.actions.act_window">
+        <field name="name">Home Slider Configuration</field>
+        <field name="res_model">home.slider.config</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click to define a new Home Slider Configuration.
+            </p>
+        </field>
     </record>
--->
 
-    <!-- Top menu item -->
-<!--
-    <menuitem name="7md_website" id="7md_website.menu_root"/>
--->
-    <!-- menu categories -->
-<!--
-    <menuitem name="Menu 1" id="7md_website.menu_1" parent="7md_website.menu_root"/>
-    <menuitem name="Menu 2" id="7md_website.menu_2" parent="7md_website.menu_root"/>
--->
-    <!-- actions -->
-<!--
-    <menuitem name="List" id="7md_website.menu_1_list" parent="7md_website.menu_1"
-              action="7md_website.action_window"/>
-    <menuitem name="Server to list" id="7md_website" parent="7md_website.menu_2"
-              action="7md_website.action_server"/>
--->
-  </data>
+    <menuitem id="home_slider_config_menu" name="Home Slider"
+              parent="website.menu_website_global_configuration" action="home_slider_config_action"/>
+
+
 </odoo>
