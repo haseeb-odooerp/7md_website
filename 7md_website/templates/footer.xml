@@ -82,17 +82,25 @@
                                 <div class="collapse navbar-collapse" id="company-links">
                                     <ul class="navbar-nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" t-attf-href="/about"> About us</a>
+                                            <a class="nav-link text-dark" t-attf-href="/about">
+                                                About us</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" t-attf-href="/terms-and-conditions"> Terms &#38;
+                                            <a class="nav-link text-dark"
+                                                t-attf-href="/terms-and-conditions"> Terms &#38;
                                                 Conditions</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" t-attf-href="/privacy-policy"> Privacy policy </a>
+                                            <a class="nav-link text-dark"
+                                                t-attf-href="/privacy-policy"> Privacy policy </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-dark" t-attf-href="/return-policy"> Return policy </a>
+                                            <a class="nav-link text-dark"
+                                                t-attf-href="/return-policy"> Return policy </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark"
+                                                t-attf-href="/contact"> Contact Us </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -155,6 +163,90 @@
                         crossorigin="anonymous"></script>
                 </div>
             </div>
+        </xpath>
+    </template>
+
+    <template id="footer_contact_container" inherit_id="website.layout"
+        name="footer contact container">
+        <xpath expr="//div[@id='footer']" position="before">
+            <!-- Contacts section -->
+            <section class="container-fluid px-lg-4 main_container py-5">
+                <div class="card shadow-lg w-100">
+                    <div class="card-body">
+                        <div
+                            class="row row-cols-2 row-cols-md-3 row-cols-lg-5 justify-content-center align-items-center">
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img src="/7md_website/static/src/images/noun-faq-2718218.png"
+                                        class="contact_us_item_img" />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Inquiries and orders:</p>
+                                    <p class="fw-bold p-0 m-0">+971 54 444 1888</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-customer-service-4516522.png"
+                                        class="contact_us_item_img" />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Customer Services:</p>
+                                    <p class="fw-bold p-0 m-0">+971 50 628 8806</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-support-service-5325669.png"
+                                        class="contact_us_item_img" />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Support Services:</p>
+                                    <p class="fw-bold p-0 m-0">+971 50 388 8087</p>
+                                </div>
+                            </div>
+                            <div class="contact_us_item d-flex col py-2">
+                                <div class="p-2">
+                                    <img
+                                        src="/7md_website/static/src/images/noun-customer-complaint-2670150.png"
+                                        class="contact_us_item_img" />
+                                </div>
+                                <div class="d-flex justify-content-center flex-column">
+                                    <p class="p-0 m-0">Suggestions and Complaints:</p>
+                                    <p class="fw-bold p-0 m-0">+971 56 749 2096</p>
+                                </div>
+                            </div>
+                            <div
+                                class="col flex-grow-1 py-2 d-flex flex-column align-items-center align-items-md-start justify-content-center">
+                                <div class="contact_us_item d-flex">
+                                    <div class="p-2">
+                                        <img
+                                            src="/7md_website/static/src/images/message.svg" />
+                                    </div>
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <p class="fw-bold p-0 m-0">Info@7Md.Ae</p>
+                                    </div>
+                                </div>
+                                <div class="contact_us_item d-flex">
+                                    <div class="p-2">
+                                        <img
+                                            src="/7md_website/static/src/images/location.svg" />
+                                    </div>
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <p class="fw-bold p-0 m-0">
+                                            7Md Store General Trading Llc Musaffah Abu Dhabi United
+                                            Arab
+                                            Emirates
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </xpath>
     </template>
 </odoo>

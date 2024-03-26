@@ -3,8 +3,9 @@
     <template id="7md_website.about" name="7md About">
         <t t-call="website.layout">
 
-            <section class="container-fluid bg-white py-2 breadcrumb-section mb-4">
-                <div class="">
+            <section
+                class="py-2 breadcrumb-section mb-4 about-container">
+                <div class="container">
                     <div class="">
                         <div class="nasa-title clearfix hr-type-none">
                             <div class="nasa-wrap">
@@ -50,62 +51,74 @@
                                     <span style="text-decoration: underline;">Company Profile :</span>
                                 </h3>
                                 <p></p>
-                                <p>
-                                    <span style="text-decoration: underline;">
+
+                                <div class="outer-img-div">
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about1.jpeg"
                                             alt="" />
-                                    </span>
-                                    <span style="text-decoration: underline;">
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about2.jpeg"
                                             alt="" />
-                                    </span>
-                                    <span style="text-decoration: underline;">
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about3.jpeg"
                                             alt="" />
-                                    </span>
-                                    <span style="text-decoration: underline;">
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about4.jpeg"
                                             alt="" />
-                                    </span>
-                                    <span style="text-decoration: underline;">
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about5.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about6.jpeg"
-                                            alt="" width="900" height="900" />
+                                            alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about7.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about8.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about9.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about10.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about11.jpeg"
                                             alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about12.jpeg"
-                                            alt="" width="904" height="903" />
-                                    </span>
-                                </p>
-                                <p>
-                                    <span style="text-decoration: underline;">
+                                            alt="" />
+                                    </div>
+                                    <div class="img-div">
                                         <img
                                             src="/7md_website/static/src/images/about13.jpeg"
                                             alt="" />
-                                    </span>
-                                </p>
-                                <p></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

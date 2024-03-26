@@ -3,42 +3,93 @@
 
     <template id="7md_website.return_policy_7md" name="Return Policy">
         <t t-call="website.layout">
-            <section class="custom-page-wrap clearfix">
+            <section class="custom-page-wrap clearfix privacy-policy-container">
                 <div class="container">
                     <div class="custom-page-content clearfix">
-                        <h3 style="text-align: center;"><a href="/public/en/return-policy"><span style="text-decoration: underline;"><strong>| Return and exchange policy at 7md Store |</strong></span></a></h3>
-        <p></p>
-        <p><a href="/public/en">7MD Store</a> sells high-quality products to ensure the satisfaction of our valued customers, so most of our products are covered by a money-back guarantee or exchange within 3 days from the date of purchase according to the following conditions<strong>:</strong></p>
-        <p></p>
-        <p style="text-align: left;"><strong>1) </strong>Keep the invoice or a copy of it<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>2) </strong>You must keep all items of the product intact and the carton as received<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>3) </strong>The warranty does not apply to products returned without the carton and accessories included with the product<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>4) </strong>The product is exchanged or returned to the customer within 3 days from the date of purchase, provided that it has not been used<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>5) </strong>Children's games are subject to the warranty for a week only from the date of purchase<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>6) </strong>Hamad Store guarantees that the product will be repaired or replaced by the customer in the event that repair is not possible during the warranty period<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>7) </strong>The warranty does not include breakage, damage to the product, or misuse, the damage resulting from misuse can be repaired or maintained, and the cost will be on the customer, if possible<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>8) </strong>It is not subject to return or exchange on personal care products used directly and in contact with the body<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>9) </strong>The cost of bringing the product and returning it to and from maintenance is borne by the customer<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong>10) </strong>Hamad Store bears the back-and-forth delivery charges in the event of a mistake from Hamad Store or a factory defect in the product<strong>.</strong></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><span class="Y2IQFc" lang="en"><strong>11) </strong>Maintenance and repair period (5) working days and can be extended according to the availability of spare parts for the product to be repaired<strong>.</strong></span></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><strong><span class="Y2IQFc" lang="en">12) </span></strong><span class="Y2IQFc" lang="en">The warranty is only for the product or device itself and does not include accessories or accessories that came with the device<strong>.</strong></span></p>
-        <p style="text-align: left;"></p>
-        <p style="text-align: left;"><span class="Y2IQFc" lang="en"><strong>13) </strong>Gifts &amp; promotional gift orders are non-refundable.</span></p>
-        <p></p>
-        <p><strong>** To review the technical support service, please call this number:<span style="text-decoration: underline;"> +9715506288806</span></strong></p>
-        <p></p>
-        <p><strong><span class="Y2IQFc" lang="en">** Please read the policy carefully and review all the terms and conditions of 7MD Store for maintenance.</span></strong></p>
+                        <h3 style="text-align: center;">
+                            <a href="/public/en/return-policy">
+                                <span style="text-decoration: underline;">
+                                    <strong>| Return and exchange policy at 7md Store |</strong>
+                                </span>
+                            </a>
+                        </h3>
+                        <p></p>
+                        <p><a href="/public/en">7MD Store</a> sells high-quality products to ensure
+                            the satisfaction of our valued customers, so most of our products are
+                            covered by a money-back guarantee or exchange within 3 days from the
+                            date of purchase according to the following conditions<strong>:</strong></p>
+                        <p></p>
+                        <p style="text-align: left;"><strong>1) </strong>Keep the invoice or a copy
+                            of it<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>2) </strong>You must keep all items of
+                            the product intact and the carton as received<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>3) </strong>The warranty does not apply
+                            to products returned without the carton and accessories included with
+                            the product<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>4) </strong>The product is exchanged or
+                            returned to the customer within 3 days from the date of purchase,
+                            provided that it has not been used<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>5) </strong>Children's games are
+                            subject to the warranty for a week only from the date of purchase<strong>
+                            .</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>6) </strong>Hamad Store guarantees that
+                            the product will be repaired or replaced by the customer in the event
+                            that repair is not possible during the warranty period<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>7) </strong>The warranty does not
+                            include breakage, damage to the product, or misuse, the damage resulting
+                            from misuse can be repaired or maintained, and the cost will be on the
+                            customer, if possible<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>8) </strong>It is not subject to return
+                            or exchange on personal care products used directly and in contact with
+                            the body<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>9) </strong>The cost of bringing the
+                            product and returning it to and from maintenance is borne by the
+                            customer<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;"><strong>10) </strong>Hamad Store bears the
+                            back-and-forth delivery charges in the event of a mistake from Hamad
+                            Store or a factory defect in the product<strong>.</strong></p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;">
+                            <span class="Y2IQFc" lang="en"><strong>11) </strong>Maintenance and
+                                repair period (5) working days and can be extended according to the
+                                availability of spare parts for the product to be repaired<strong>.</strong></span>
+                        </p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;">
+                            <strong>
+                                <span class="Y2IQFc" lang="en">12) </span>
+                            </strong>
+                            <span class="Y2IQFc" lang="en">The warranty is only for the product or
+                                device itself and does not include accessories or accessories that
+                                came with the device<strong>.</strong></span>
+                        </p>
+                        <p style="text-align: left;"></p>
+                        <p style="text-align: left;">
+                            <span class="Y2IQFc" lang="en"><strong>13) </strong>Gifts &amp;
+                                promotional gift orders are non-refundable.</span>
+                        </p>
+                        <p></p>
+                        <p>
+                            <strong>** To review the technical support service, please call this
+                                number:<span style="text-decoration: underline;"> +9715506288806</span></strong>
+                        </p>
+                        <p></p>
+                        <p>
+                            <strong>
+                                <span class="Y2IQFc" lang="en">** Please read the policy carefully
+                                    and review all the terms and conditions of 7MD Store for
+                                    maintenance.</span>
+                            </strong>
+                        </p>
                     </div>
                 </div>
             </section>

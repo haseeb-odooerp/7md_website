@@ -82,3 +82,27 @@
     margin: 0 auto !important;
     right: 0 !important;
 }
+
+.checkout_custom_class_summary {
+    td {
+        font-size: 14px !important;
+        span {
+            font-size: 15px;
+        }
+    }
+    #order_total {
+        td {
+            padding-top: 16px;
+            font-weight: 600;
+        }
+    }
+    .coupon_form {
+        a {
+            background-color: #d9981c;
+            color: white;
+        }
+    }
+    .color-white {
+        color: white;
+    }
+}

@@ -3,7 +3,7 @@
 
     <template id="7md_website.terms_and_condition_7md" name="Terms and Conditions">
         <t t-call="website.layout">
-            <section class="">
+            <section class="privacy-policy-container">
                 <div class="container">
                     <div class="">
                         <h3>

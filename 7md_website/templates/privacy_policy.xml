@@ -3,7 +3,7 @@
 
     <template id="7md_website.privacy_policy_7md" name="Privacy Policy">
         <t t-call="website.layout">
-            <section class="container-fluid custom-page-wrap clearfix">
+            <section class="container-fluid custom-page-wrap clearfix privacy-policy-container">
                 <div class="container">
                     <div class="custom-page-content clearfix">
                         <h3>

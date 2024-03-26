@@ -37,7 +37,8 @@
         'templates/product_details_screen.xml',
         'templates/pricelist_custom.xml',
         'templates/cart_custom_header.xml',
-        'templates/cart_customized_screen.xml'
+        'templates/cart_customized_screen.xml',
+        'templates/checkout_customized_screen.xml',
         # 'views/views.xml',
         # 'views/templates.xml',
     ],
