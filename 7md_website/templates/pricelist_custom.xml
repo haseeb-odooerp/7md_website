@@ -7,7 +7,7 @@
                 t-attf-class="o_pricelist_dropdown dropdown #{_classes if hasPricelistDropdown else 'd-none'}">
                 <t t-set="curr_pl" t-value="website.pricelist_id" />
 
-                <a role="button" href="#" t-attf-class="dropdown-toggle btn btn-{{navClass}}"
+                <a role="button" href="#" t-attf-class="dropdown-toggle pricelist_custom_class"
                     data-bs-toggle="dropdown">
                     <t t-esc="curr_pl and curr_pl.name or ' - '" />
                 </a>

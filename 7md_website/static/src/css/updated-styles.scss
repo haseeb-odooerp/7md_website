@@ -168,7 +168,8 @@ a.nav-link.text-white {
     }
     #featureContainer .carousel-inner .carousel-item-end,
     #featureContainer .carousel-inner .carousel-item-start {
-        transform: translateX(0);
+        transform: translateX(0%);
+        background-color: #f8f8f8;
     }
     #featureContainer .card {
         border: 0;
@@ -274,6 +275,7 @@ a.nav-link.text-white {
     #bestSellerCarousel .carousel-inner .carousel-item-end,
     #bestSellerCarousel .carousel-inner .carousel-item-start {
         transform: translateX(0);
+        background-color: #f8f8f8;
     }
     #bestSellerCarousel .card {
         border: 0;
@@ -696,7 +698,7 @@ header nav.navbar {
 }
 
 #search_icon {
-    filter: invert(1);
+    filter: invert(0);
 }
 
 .custom-login-providers-outer {
@@ -802,5 +804,15 @@ header nav.navbar {
                 object-fit: cover;
             }
         }
+    }
+}
+
+.pricelist_custom_class{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        text-decoration: none;
     }
 }
