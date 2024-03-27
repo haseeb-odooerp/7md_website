@@ -51,6 +51,8 @@
     'assets': {
         'web.assets_frontend':[
             "7md_website/static/src/js/landing.js",
+            "7md_website/static/src/js/lightslider.js",
+            "7md_website/static/src/css/lightslider.css",
             "7md_website/static/src/css/account.css",
             "7md_website/static/src/css/all.css",
             "7md_website/static/src/css/slick-theme.css",

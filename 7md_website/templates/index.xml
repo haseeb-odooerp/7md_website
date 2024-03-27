@@ -861,9 +861,11 @@
             </section>
 
             <!-- Jquery multiple product slider -->
+            <!-- Light slider multi product slider -->
             <section class="multiii">
                 <!-- Whole page slider -->
-                <section data-snippet="s_dynamic_snippet_products"
+                <!-- Dynamic slider -->
+                <!-- <section data-snippet="s_dynamic_snippet_products"
                     class="s_dynamic_snippet_products s_dynamic o_colored_level s_product_product_borderless_1"
                     data-name="Products" style="background-image: none;"
                     data-product-category-id="all"
@@ -873,7 +875,8 @@
                     <div class="o_not_editable" contenteditable="false">
                         <div class="css_non_editable_mode_hidden">
                             <div
-                                class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                                class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none
+                o_default_snippet_text">
                                 Your Dynamic Snippet will be displayed here... This message is
                                 displayed because you did not provided both a filter and a template
                                 to use.<br />
@@ -887,7 +890,332 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
+
+                <!-- Updated slider -->
+                <div class="carousel-multi-product-lightslider">
+                    <ul id="lightslider-multi-product">
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="card product-card">
+                                <div class="product-card-image p-3">
+                                    <a
+                                        href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                        class="product-image">
+                                        <img
+                                            src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                            alt="menu"
+                                            class="card-img-top" />
+                                    </a>
+                                </div>
+
+                                <div class="product_sku badge bg-danger">
+                                    10026</div>
+                                <div class="fav-label">
+                                    <a href="javascript:void(0);"
+                                        class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                        <img class="heart-like-icon"
+                                            src="/7md_website/static/src/images/heart@2x.png" />
+                                    </a>
+                                </div>
+                                <div class="offer-label">50%</div>
+
+                                <div class="card-body p-lg-4 text-center">
+                                    <div
+                                        class="small-ratings justify-content-center">
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star rating-color"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <h5 class="card-title">
+                                        11Electric Multi-Functional Tea
+                                        Coffee Pot11
+                                    </h5>
+                                    <div class="prices">
+                                        <span class="price"> AED499</span>
+                                        <span class="price-old">AED600</span>
+                                    </div>
+                                    <button
+                                        class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                        <img
+                                            class="cart-add-to-cart-icon"
+                                            src="/7md_website/static/src/images/cart-icon.svg" />
+                                        <span class="item_button_text">Add
+                                            To Cart</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <!-- Javascript custom slider -->
                 <!-- <div class="slider">
                     <div class="slider__wrapper">
                         <div class="slider__item">
@@ -1628,6 +1956,7 @@
             <!-- New Offer Slider Section -->
             <section class="container-fluid px-lg-4 main_container pt-4 new-offer-slider-section">
                 <div class="row pb-4">
+                    <!-- Banner Column -->
                     <div class="col-sm-12 col-md-12 col-sm-12 col-lg-3 product-side-filter">
                         <div class="card offer-banner h-100 justify-content-end rounded-3">
                             <picture class="w-100 card-img">
@@ -1660,6 +1989,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Slider Column -->
                     <div
                         class="col-md-12 col-sm-12 pt-md-0 pt-3 justify-content-center flex-grow-1 align-items-center col-md-8 col-lg-9">
                         <div class="slider w-100 slider-offer-bottom-fix">
@@ -1674,7 +2004,8 @@
                                 <div class="o_not_editable" contenteditable="false">
                                     <div class="css_non_editable_mode_hidden">
                                         <div
-                                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none
+                            o_default_snippet_text">
                                             Your Dynamic Snippet will be displayed here... This
                                             message is displayed because you did not provided both a
                                             filter and a template to use.<br />
@@ -1689,7 +2020,7 @@
                                     </div>
                                 </div>
                             </section> -->
-                            <div id="featureContainer">
+                            <!-- <div id="featureContainer">
                                 <div class="row mx-auto my-auto justify-content-center">
                                     <div id="featureCarousel" class="carousel slide"
                                         data-bs-ride="carousel">
@@ -1930,6 +2261,328 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div> -->
+                            <!-- Light slider new offer -->
+                            <div class="carousel-multi-product-lightslider">
+                                <ul id="lightslider-new-offer">
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -2122,69 +2775,95 @@
                             <div class="slider">
                                 <div class="slide-track">
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-1.png"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-1.png"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-2.png"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-2.png"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-3.png"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-3.png"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-4.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-4.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-5.png"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-5.png"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-6.png"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-6.png"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-7.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-7.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-8.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-8.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-9.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-9.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-10.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-10.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-11.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-11.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-12.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-12.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
                                     <div class="slide">
-                                        <img
-                                            src="/7md_website/static/src/images/brand-13.jpeg"
-                                            height="100" width="250" alt="" />
+                                        <a href="#">
+                                            <img
+                                                src="/7md_website/static/src/images/brand-13.jpeg"
+                                                height="100" width="250" alt="" />
+                                        </a>
                                     </div>
 
                                 </div>
@@ -2357,7 +3036,8 @@
 
             <!-- Best Selling Slider Section -->
             <section class="container-fluid px-lg-4 main_container pt-4 best-seller-slider-section">
-                <div class="row pb-4">
+                <div class="row align-items-center pb-4">
+                    <!-- Banner Column -->
                     <div class="col-sm-12 col-md-3 col-lg-3 product-side-filter">
                         <div class="card offer-banner h-100 justify-content-end rounded-3">
                             <picture class="w-100 card-img">
@@ -2370,6 +3050,7 @@
                             </picture>
                         </div>
                     </div>
+                    <!-- Slider Column -->
                     <div
                         class="col-sm-12 pt-md-0 pt-3 justify-content-center flex-grow-1 align-items-center col-md-8 col-lg-9">
                         <div class="slider w-100 slider-offer-bottom-fix">
@@ -2384,7 +3065,8 @@
                                 <div class="o_not_editable" contenteditable="false">
                                     <div class="css_non_editable_mode_hidden">
                                         <div
-                                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text">
+                                            class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none
+                            o_default_snippet_text">
                                             Your Dynamic Snippet will be displayed here... This
                                             message is displayed because you did not provided both a
                                             filter and a template to use.<br />
@@ -2400,8 +3082,8 @@
                                 </div>
                             </section> -->
 
-
-                            <div id="bestSellerCarousel">
+                            <!-- Javascript slider -->
+                            <!-- <div id="bestSellerCarousel">
                                 <div class="row mx-auto my-auto justify-content-center">
                                     <div id="SellerCarousel" class="carousel slide"
                                         data-bs-ride="carousel">
@@ -2642,6 +3324,329 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div> -->
+
+                            <!-- Light Slider -->
+                            <div class="carousel-multi-product-lightslider">
+                                <ul id="lightslider-best-selling">
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card product-card">
+                                            <div class="product-card-image p-3">
+                                                <a
+                                                    href="https://www.7md.ae/en/products/wireless-arcade-game-box-with-10-full-hd-screen-two-controllers-comes-with-26800-built-in-games"
+                                                    class="product-image">
+                                                    <img
+                                                        src="https://www.7md.ae/storage/media/5RwvGeOLqB3nazQgJNA3SVFL1orNyLCjKIUCJlB0.jpg"
+                                                        alt="menu"
+                                                        class="card-img-top" />
+                                                </a>
+                                            </div>
+
+                                            <div class="product_sku badge bg-danger">
+                                                10026</div>
+                                            <div class="fav-label">
+                                                <a href="javascript:void(0);"
+                                                    class="btn btn-light p-2 m-0 rounded-circle btn-wishlist">
+                                                    <img class="heart-like-icon"
+                                                        src="/7md_website/static/src/images/heart@2x.png" />
+                                                </a>
+                                            </div>
+                                            <div class="offer-label">50%</div>
+
+                                            <div class="card-body p-lg-4 text-center">
+                                                <div
+                                                    class="small-ratings justify-content-center">
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star rating-color"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                </div>
+                                                <h5 class="card-title">
+                                                    11Electric Multi-Functional Tea
+                                                    Coffee Pot11
+                                                </h5>
+                                                <div class="prices">
+                                                    <span class="price"> AED499</span>
+                                                    <span class="price-old">AED600</span>
+                                                </div>
+                                                <button
+                                                    class="btn btn-light flex-grow-1 bg-white text-primary rounded-0 border-primary">
+                                                    <img
+                                                        class="cart-add-to-cart-icon"
+                                                        src="/7md_website/static/src/images/cart-icon.svg" />
+                                                    <span class="item_button_text">Add
+                                                        To Cart</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
                             </div>
                         </div>
                     </div>

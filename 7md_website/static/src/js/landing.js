@@ -183,4 +183,89 @@ odoo.define(
 
             setTimeout(moveLeft(), 1000); /* works only on load for the first slider...research later*/
         });
+
+        // Light slider js
+        $(document).ready(function () {
+            // Multi product slider
+            $('#lightslider-multi-product').lightSlider({
+                item: 5,
+                loop: true,
+                controls: false,
+                slideMove: 1,
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed: 600,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 2,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+            // New Offer Slider
+            $('#lightslider-new-offer').lightSlider({
+                item: 4,
+                loop: true,
+                controls: false,
+                pager: false,
+                slideMove: 1,
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed: 600,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 2,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+            // Best Selling Slider
+            $('#lightslider-best-selling').lightSlider({
+                item: 4,
+                loop: true,
+                controls: false,
+                pager: false,
+                slideMove: 1,
+                easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                speed: 600,
+                responsive: [
+                    {
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 2,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        });
+        // 
     });
