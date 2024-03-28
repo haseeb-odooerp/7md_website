@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="oe_login_signup.website_home_page" inherit_id="7md_website.home" name="7md HomePage">
+        <xpath expr="//t[1]/section[8]/div[1]/div[2]/div[1]/section[1]" position="replace">
+
+
+<!--            <div class="your-slider-class">-->
+<!--  <div> Your content for slide 1 </div>-->
+<!--  <div> Your content for slide 2 </div>-->
+<!--  <div> Your content for slide 3 </div>-->
+<!--  &lt;!&ndash; Add as many slides as you need &ndash;&gt;-->
+<!--</div>-->
+
+
+
+           <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+</div>
+
+
+
+            <!--            <section data-snippet="s_dynamic_snippet_products"-->
+            <!--                     class="s_dynamic_snippet_products s_dynamic o_colored_level s_product_product_borderless_1"-->
+            <!--                     data-name="Products" style="background-image: none;"-->
+            <!--                     data-product-category-id="all"-->
+            <!--                     data-number-of-records="16" data-filter-id="1"-->
+            <!--                     data-template-key="website_sale.dynamic_filter_template_product_product_borderless_1"-->
+            <!--                     data-carousel-interval="5000">-->
+
+            <!--    <div class="o_product_carousel">-->
+            <!--        <div class="carousel slide" data-ride="carousel" id="carouselExampleControls">-->
+            <!--            <div class="carousel-inner">-->
+            <!--                <t t-foreach="new_offered_products" t-as="product">-->
+            <!--                    <div>-->
+            <!--                        &lt;!&ndash; Ensure your img src path and fields are correctly set up &ndash;&gt;-->
+            <!--                        <img t-att-src="'/web/image/product.template/' + str(product.id) + '/image_1920'" class="d-block w-100" alt="Product"/>-->
+            <!--                        <div class="carousel-caption d-none d-md-block">-->
+            <!--                            <h5 t-esc="product.name"/>-->
+            <!--                            <p t-esc="product.description_sale"/>-->
+            <!--                        </div>-->
+            <!--                    </div>-->
+            <!--                </t>-->
+            <!--            </div>-->
+            <!--            &lt;!&ndash; Control links updated with the correct carousel ID &ndash;&gt;-->
+            <!--            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">-->
+            <!--                <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+            <!--                <span class="sr-only">Previous</span>-->
+            <!--            </a>-->
+            <!--            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">-->
+            <!--                <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+            <!--                <span class="sr-only">Next</span>-->
+            <!--            </a>-->
+            <!--        </div>-->
+            <!--    </div>-->
+
+
+            <!--            </section>-->
+
+        </xpath>
+    </template>
+</odoo>

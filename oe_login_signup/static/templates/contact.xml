@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="oe_login_signup.contact" inherit_id="7md_website.contact" name="7md Contact">
+        <xpath expr="//t[1]/section[1]/div[1]" position="replace">
+            <div class="row mt-4">
+                <t t-foreach="stores" t-as="store">
+                    <div class="col-md-3">
+                        <div class="card mb-4 p-3">
+                            <h4 class="mb10"></h4>
+                            <h4 class="mb10"></h4>
+                            <h4 class="mb10">
+
+                                <a t-att-href="'/contact/' + store.url_name" class="branch_link">
+                                    <t t-esc="store.name"/>
+                                </a>
+                            </h4>
+                            <t t-if="store.phone_number">
+                                <ul class="list-inline contact-info mb20">
+                                    <li class="shop-no">
+                                        <i class="fa fa-phone"></i>
+                                        <span>
+                                            <a t-att-href="'tel:' + store.phone_number.replace(' ', '')">
+                                                <t t-esc="store.phone_number"/>
+                                            </a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </t>
+                        </div>
+                    </div>
+                </t>
+            </div>
+        </xpath>
+        <xpath expr="//t[1]/section[2]/div[1]/div[1]/div[1]/div[2]" position="replace">
+
+        </xpath>
+
+    </template>
+</odoo>
